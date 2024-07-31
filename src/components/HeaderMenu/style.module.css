@@ -1,0 +1,11 @@
+.headerMenu {
+ display: flex;
+width: 116px;
+font-family: "Jost", sans-serif;
+font-size: 16px;
+}
+
+.headerMenuHeading {
+    width: 700px;
+    justify-content: space-evenly;
+}

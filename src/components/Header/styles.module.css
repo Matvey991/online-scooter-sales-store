@@ -1,0 +1,50 @@
+.headerTopBLockText {
+    color: #5D6C7B;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.headerTopBLockText:hover {
+    color: black;
+}
+
+.headerTopTitle {
+color: #5D6C7B;
+}
+
+.headerTop {
+    display: flex;
+    width: 351px;
+    padding-top: 11px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerTopBlock {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numbers {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerTopB {
+    padding-top: 12px;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.num {
+    color: #282739;
+    font-size: 14px;
+    transition: 0.2s linear;
+}
+
+.num:hover {
+    color: #1b10f6;
+    cursor: pointer;
+}
+
+
