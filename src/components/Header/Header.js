@@ -28,16 +28,21 @@ export const Header = () => {
 </header>
 <section>
     <div className={styles.section}>
-        <div className={styles.sectionMenu}>
-            <div className={styles.sectionH2}>
+        <div className={styles.sectionH2}>
+            <div className={styles.sectionMenu}>
         <h2>
         Kugoo
         </h2>
     </div>
     </div>
         <button className={styles.sectionButton}>Каталог</button>
+        <div className={styles.sectionSearch}>
+        <div className={styles.sectionSearchText}>
+        Искать самокат KUGO
+        </div>
+        </div>
     </div>
-</section>
+        </section>
 </>
 
     )
