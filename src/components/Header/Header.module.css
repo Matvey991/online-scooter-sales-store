@@ -1,5 +1,83 @@
-.header {
-    background-color: #F4F7FB;
-    height: 100vh;
-    width: 100% ;
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    color: #FFFFFF;
+    font-family: 'Jast', sans-serif;
+}
+
+button {
+    color: #5D6C7B;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Jast', sans-serif;
+    padding-right: 30px;
+}
+
+.container {
+    display: flex;
+
+    padding-top: 11px;
+    padding-left: 116px;
+}
+
+.headerRight {
+    color: red;
+}
+
+.headerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 8.5px;
+    cursor: pointer;
+}
+
+.headerNumber {
+    padding-left: 626px;
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Jast', sans-serif;
+}
+
+
+.sectionH2 {
+    display: flex;
+    font-weight: 700;
+    size: 30;
+    padding-top: 27px;
+    padding-left: 165px;
+}
+
+.sectionButton {
+    color: #fff;
+    width: 114px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #6F73EE;
+}
+
