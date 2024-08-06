@@ -3,6 +3,11 @@ import {ReactComponent as Viber} from '../../helpers/viber.svg'
 import {ReactComponent as Tg} from '../../helpers/tg.svg'
 import {ReactComponent as What} from '../../helpers/what.svg'
 import {ReactComponent as Number} from '../../helpers/numbers.svg'
+import {ReactComponent as Vector} from '../../helpers/Vector.svg'
+import {ReactComponent as Shopping} from '../../helpers/shopping.svg'
+import {ReactComponent as Heart} from '../../helpers/Heart.svg'
+import {ReactComponent as Balance} from '../../helpers/balance.svg'
+
 
 
 export const Header = () => {
@@ -37,7 +42,14 @@ export const Header = () => {
     </div>
         <button className={styles.sectionButton}>Каталог</button>
             <div className={styles.sectionSearchText}>
+        <button className={styles.sectionButtonSearch}>Везде</button>
         <input className={styles.sectionSearch} placeholder='Искать самокат KUGO'></input>
+        </div>
+        <button className={styles.sectionLupa}><Vector className={styles.Lupa}/></button>
+        <div className={styles.sectionLogo}>
+        <Balance/>
+        <Heart/>
+        <Shopping/>
         </div>
         </div>
         </section>

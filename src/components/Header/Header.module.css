@@ -30,10 +30,6 @@ button {
     padding-left: 116px;
 }
 
-.headerRight {
-    color: red;
-}
-
 .headerLogo {
     display: flex;
     justify-content: center;
@@ -53,14 +49,14 @@ li {
 }
 
 .headerNumber {
-    padding-left: 626px;
+    padding-left: 626px
 }
 
 
 
 .section {
     display: flex;
-    margin-left: 100px;
+    margin-left: 115px;
     font-family: 'Jast', sans-serif;
 }
 
@@ -79,19 +75,25 @@ li {
 .sectionButton {
     color: #fff;
     cursor: pointer;
-    margin-top: 22px;
+    margin-top: 30px;
+    padding-left: 25px;
     margin-left: 35px;
     width: 116px;
     border-radius: 5px;
     background-color: #6F73EE;
+    transition: 0.2s linear;
+}
+
+.sectionButton:hover {
+    background-color: #6165d4;
 }
 
 .sectionSearchText {
     margin-top: 30px;
     margin-left: 20px;
-    padding-bottom: 10px;
     border: 2px solid #6F73EE;
     border-radius: 5px;
+
 }
 
 input:focus {
@@ -100,7 +102,42 @@ input:focus {
 }
 
 .sectionSearch {
+    margin-left: 20px;
     padding-right: 450px;
     padding-top: 10px;
+}
 
+.sectionButtonSearch {
+    padding: 0px;
+    color: #282739;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Jast', sans-serif;
+    margin-left: 4px;
+    background-color: #F4F7FB;
+}
+
+.sectionLupa {
+    margin-top: 30px;
+    margin-left: -4px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: black;
+    border-radius: 0px 5px 5px 0px ;
+    background-color: #6F73EE;
+    transition: 0.2s linear;
+}
+
+.sectionLupa:hover {
+    background-color: #6165d4;
+}
+
+.Lupa {
+    margin-right: 10px;
 }
