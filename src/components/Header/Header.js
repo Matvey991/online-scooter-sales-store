@@ -36,12 +36,10 @@ export const Header = () => {
     </div>
     </div>
         <button className={styles.sectionButton}>Каталог</button>
-        <div className={styles.sectionSearch}>
-        <div className={styles.sectionSearchText}>
-        Искать самокат KUGO
+            <div className={styles.sectionSearchText}>
+        <input className={styles.sectionSearch} placeholder='Искать самокат KUGO'></input>
         </div>
         </div>
-    </div>
         </section>
 </>
 
