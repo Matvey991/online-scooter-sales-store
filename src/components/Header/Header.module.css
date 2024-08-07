@@ -105,6 +105,7 @@ input:focus {
     margin-left: 20px;
     padding-right: 450px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .sectionButtonSearch {
@@ -119,6 +120,11 @@ input:focus {
     font-family: 'Jast', sans-serif;
     margin-left: 4px;
     background-color: #F4F7FB;
+    transition: 0.2s linear;
+}
+
+.sectionButtonSearch:hover {
+background-color: #8f8f8f44;
 }
 
 .sectionLupa {
@@ -141,3 +147,4 @@ input:focus {
 .Lupa {
     margin-right: 10px;
 }
+
