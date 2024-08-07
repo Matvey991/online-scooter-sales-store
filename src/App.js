@@ -1,5 +1,6 @@
 import { Header } from "./components/Header/Header";
-import Section from "./components/Header/section/Section";
+import Section from "./components/section/Section";
+
 import './style.module.css'
 
 function App() {
