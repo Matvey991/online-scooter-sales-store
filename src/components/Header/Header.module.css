@@ -102,10 +102,11 @@ input:focus {
 }
 
 .sectionSearch {
-    margin-left: 20px;
+    margin-left: 10px;
     padding-right: 450px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .sectionButtonSearch {
