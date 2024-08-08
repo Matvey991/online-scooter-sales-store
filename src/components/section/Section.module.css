@@ -104,6 +104,11 @@ background-color: #8f8f8f44;
 .sectionLogoButton {
     padding-left: 10px;
     color: #000000;
+    transition: 0.2s linear;
+}
+
+.sectionLogoButton:hover {
+color: #6F73EE;
 }
 
 .sectionIcon {
@@ -120,6 +125,8 @@ background-color: #8f8f8f44;
     display: flex;
     align-items: center;
     margin-top: 35px;
+    width: 100%;
+    height: 100%;
     background-color: #F4F7FB;
 }
 
@@ -169,3 +176,4 @@ background-color: #8f8f8f44;
     cursor: pointer;
     margin-top: -1px;
 }
+

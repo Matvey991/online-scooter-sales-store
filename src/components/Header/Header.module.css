@@ -48,5 +48,18 @@ li {
 }
 
 .headerNumber {
-    padding-left: 626px
+    margin-left: 626px;
+    transition: 0.2s linear;
+}
+
+.headerNumber:hover {
+    color: #6F73EE;
+}
+
+.headerButton {
+    transition: 0.2s linear;
+}
+
+.headerButton:hover {
+    color: #000000;
 }

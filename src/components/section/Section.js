@@ -26,28 +26,28 @@ const Section = () => {
         <button className={styles.sectionLupa}><Vector className={styles.Lupa}/></button>
         <div className={styles.sectionIcon}>
         <div className={styles.sectionLogo}>
-      <a href='#'>  <Balance className={styles.sectionLogo}/></a>
-      <a href='#'>  <Heart className={styles.sectionLogo}/></a>
-      <a href='#'>  <Shopping className={styles.sectionLogo}/></a>
-      <a href='#' className={styles.sectionLogoButton}>Корзина</a>
+      <a href='#!'>  <Balance className={styles.sectionLogo}/></a>
+      <a href='#!'>  <Heart className={styles.sectionLogo}/></a>
+      <a href='#!'>  <Shopping className={styles.sectionLogo}/></a>
+      <a href='#!' className={styles.sectionLogoButton}>Корзина</a>
         </div>
         </div>
         </div>
         <div className={styles.sectionDown}>
             <div className={styles.sectionDownMenu}>
-        <a href='#' className={styles.sectionHeadingDown}>О магазине</a>
-        <a href='#' className={styles.sectionHeadingDown}>Доставка и оплата</a> 
+        <a href='#!' className={styles.sectionHeadingDown}>О магазине</a>
+        <a href='#!' className={styles.sectionHeadingDown}>Доставка и оплата</a> 
         <div className={styles.sectionButtonDown}>
             <div className={styles.sectionButtonDow}>
         <button className={styles.sectionButtonDow}>Доступна рассрочка</button>
         </div>
         </div>
-        <a href='#' className={styles.sectionHeadingDown}>Тест-драйв</a>
-        <a href='#' className={styles.sectionHeadingDown}>Блог</a>
-        <a href='#' className={styles.sectionHeadingDown}>Контакты</a>
-        <a href='#' className={styles.sectionHeadingDown}>Акции</a>
+        <a href='#!' className={styles.sectionHeadingDown}>Тест-драйв</a>
+        <a href='#!' className={styles.sectionHeadingDown}>Блог</a>
+        <a href='#!' className={styles.sectionHeadingDown}>Контакты</a>
+        <a href='#!' className={styles.sectionHeadingDown}>Акции</a>
         <div className={styles.sectionDownLogo}>
-        <a href='#'><Group/></a>
+        <a href='#!'><Group/></a>
         </div>
         </div>
         </div>

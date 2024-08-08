@@ -11,9 +11,9 @@ export const Header = () => {
 <header>
 <div className={styles.header}>
 <div className={styles.container}>
-<button>Сервис</button>
-<button>Сотрудничество</button>
-<button>Заказать звонок</button>
+<button className={styles.headerButton}>Сервис</button>
+<button className={styles.headerButton}>Сотрудничество</button>
+<button className={styles.headerButton}>Заказать звонок</button>
 <ul>
 <li><Viber/></li>
 <li><Tg/></li>
