@@ -6,8 +6,8 @@ const Main = () => {
         <>
          <main>
             <div className={styles.mainBackround}>
-            <Rectangle/> 
-            <Samokat className={styles.mainSamokat}/>
+        <img className={styles.mainBackroundPhoto} src='https://sun9-74.userapi.com/impg/BIFHu_eSHotwMQSrWBe-W1IHlv67wa__gJvvNg/pzE6oMxAv2o.jpg?size=1380x421&quality=95&sign=d8beb7a4e3a470aa40d19fdfaeec163e&type=album'/>
+        <Samokat/>
             </div>
             <div className={styles.mainButtonAbove}>
             <button className={styles.mainButton}>Новинка</button>

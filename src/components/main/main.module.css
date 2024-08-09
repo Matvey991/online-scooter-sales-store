@@ -8,6 +8,11 @@ main {
     height: 0px;
     align-items: center;
     padding: 31px 30px 0px 30px;
+    padding-top: 10000px;
+    position: absolute;
+}
+
+.mainBackroundPhoto {
     position: relative;
 }
 
@@ -31,7 +36,6 @@ main {
 }
 
 .mainDownHeading {
-    color: red;
     margin-left: 120px;
     margin-top: 25px;
     font-size: 20px;
@@ -47,8 +51,4 @@ main {
 .mainHeading {
     color: #fff;
     font-weight: 600;
-}
-
-.mainSamokat {
-    position: absolute;
 }
