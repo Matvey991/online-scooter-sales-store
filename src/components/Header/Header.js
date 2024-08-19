@@ -19,7 +19,7 @@ export const Header = () => {
 <li><Tg/></li>
 <li><What/></li>
 </ul>
-<a className={styles.headerNumber} href='#!'>+7 (800) 505-54-61</a>
+<a className={styles.headerNumber} href='tel: +7 (800) 505-54-61'>+7 (800) 505-54-61</a>
 <ul>
 <li><Number/></li>
 </ul>

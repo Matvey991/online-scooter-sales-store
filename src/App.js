@@ -2,11 +2,11 @@ import { Header } from "./components/Header/Header";
 import Main from "./components/main/Main";
 import Section from "./components/section/Section";
 
-import './style.module.css'
+import styles from './style.module.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Header/>
       <Section/>
       <Main/>

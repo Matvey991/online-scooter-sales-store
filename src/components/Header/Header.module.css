@@ -50,6 +50,7 @@ li {
 .headerNumber {
     margin-left: 626px;
     transition: 0.2s linear;
+    font-weight: 400;
 }
 
 .headerNumber:hover {

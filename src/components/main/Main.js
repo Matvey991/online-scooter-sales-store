@@ -1,13 +1,11 @@
 import styles from './main.module.css'
-import {ReactComponent as Rectangle} from '../../helpers/Rectangle.svg'
 import {ReactComponent as Samokat} from '../../helpers/samokat.svg'
 const Main = () => {
     return (
         <>
-         <main>
+         <main className={styles.bolockMain}>
             <div className={styles.mainBackround}>
-        <img className={styles.mainBackroundPhoto} src='https://sun9-74.userapi.com/impg/BIFHu_eSHotwMQSrWBe-W1IHlv67wa__gJvvNg/pzE6oMxAv2o.jpg?size=1380x421&quality=95&sign=d8beb7a4e3a470aa40d19fdfaeec163e&type=album'/>
-        <Samokat/>
+                <img lassName={styles.samokatMain} src='https://sun9-64.userapi.com/impg/jlcdJogk4wHfuTnhYN_XZDZG-w9E5LIzjV-Kcw/GGn43eHRr2U.jpg?size=538x405&quality=95&sign=8b8bb6f7023583e7aaef6e926f049362&type=album'/>
             </div>
             <div className={styles.mainButtonAbove}>
             <button className={styles.mainButton}>Новинка</button>
@@ -18,6 +16,11 @@ const Main = () => {
             </h1>
             <div className={styles.mainParagraph}>
             <p>с бесплатной доставкой по РФ от 1 дня</p>
+            </div>
+            <div className={styles.mainButtonBack}>
+            <button className={styles.mainHeadingButton}>
+            Перейти в католог
+            </button>
             </div>
             </div>
         </main>   
