@@ -7,7 +7,6 @@ import {ReactComponent as Number} from '../../helpers/numbers.svg'
 
 export const Header = () => {
     return (
-        <>
 <header>
 <div className={styles.header}>
 <div className={styles.container}>
@@ -26,7 +25,5 @@ export const Header = () => {
 </div>
 </div>
 </header>
-</>
-
     )
 }

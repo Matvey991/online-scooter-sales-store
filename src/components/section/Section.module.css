@@ -1,6 +1,9 @@
 .section {
     display: flex;
     font-family: 'Jast', sans-serif;
+    width: 1140px;
+    height: 70px;
+    justify-content: space-evenly;
 }
 
 
@@ -11,8 +14,6 @@
     font-weight: 700;
     font-size: 20px;
     padding-top: 27px;
-
-
 }
 
 .sectionButton {
@@ -66,15 +67,12 @@ input:focus {
 }
 
 .sectionButtonSearch:hover {
-background-color: #8f8f8f44;
+    background-color: #8f8f8f44;
 }
 
 .sectionLupa {
-    margin-top: 30px;
-    padding: 0px;
     display: flex;
     align-items: center;
-    padding-left: 10px;
     color: black;
     border-radius: 0px 5px 5px 0px ;
     background-color: #6F73EE;
@@ -83,10 +81,6 @@ background-color: #8f8f8f44;
 
 .sectionLupa:hover {
     background-color: #6165d4;
-}
-
-.Lupa {
-
 }
 
 .sectionLogo {
@@ -171,3 +165,13 @@ color: #6F73EE;
     margin-top: -1px;
 }
 
+.hr {
+    margin-top: 10px;
+    border: 0.5px solid #ECF3FF
+}
+.sectionLogoXuy {
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+}
