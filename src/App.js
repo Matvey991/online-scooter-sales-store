@@ -8,8 +8,6 @@ function App() {
   return (
     <div className={styles.App}>
       <Header/>
-      <Section/>
-      <Main/>
     </div>
   );
 }

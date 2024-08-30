@@ -20,47 +20,52 @@ button {
     background-color: transparent;
     cursor: pointer;
     font-family: 'Jast', sans-serif;
-    padding-right: 30px;
 }
 
 .container {
+    margin: 0 165px;
+    margin-top: 11px;
+}
+
+.header {
     display: flex;
-    padding-top: 11px;
-    padding-left: 116px;
+    width: 351px;
+    justify-content: space-between;
+    color: #5D6C7B;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Jast', sans-serif;
 }
 
 .headerLogo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
-ul {
+.headerTextContent {
     display: flex;
+    width: 320px;
+    color: #5D6C7B;
+    justify-content: space-between;
 }
 
-li {
-    list-style-type: none;
+.headerTextContent {
+}
+
+.headerTextConten {
     display: flex;
-    align-items: center;
-    margin-left: 8.5px;
-    cursor: pointer;
+    width: 170px;
+    color: #5D6C7B;
+    justify-content: space-between;
+}
+
+.headerLogoContent {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
 }
 
 .headerNumber {
-    margin-left: 626px;
-    transition: 0.2s linear;
-    font-weight: 400;
-}
-
-.headerNumber:hover {
-    color: #6F73EE;
-}
-
-.headerButton {
-    transition: 0.2s linear;
-}
-
-.headerButton:hover {
-    color: #000000;
+    display: flex;
+    justify-content: space-between;
 }
