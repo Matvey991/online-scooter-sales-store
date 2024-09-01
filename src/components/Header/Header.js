@@ -7,26 +7,19 @@ import {ReactComponent as Number} from '../../helpers/numbers.svg'
 
 export const Header = () => {
     return (
-    <div className={styles.container}>
-<header>
-<div className={styles.header}>
-    <div className={styles.headerTextConten}>
-<span className={styles.headerTextConten}>Сервис</span>
-<span className={styles.headerTextContent}>Сотрудничество</span>
-<span className={styles.headerTextContent}>Заказать звонок</span>
-    </div>
-    <div className={styles.headerLogo}>
-        <div className={styles.headerLogoContent}>
-<Viber/>
-<What/>
-<Tg/>
-    </div>
-        </div>
+        <>
+<header className={styles.header}>
+<div className={styles.headerLeft}>
+        <button className={styles.headerLeftButton}>Сервис</button>
+        <button className={styles.headerLeftButton}> Сотрудничество</button>
+        <button className={styles.headerLeftButton}>Заказать звонок</button>
+</div>
+<div className={styles.headerRight}>
+<div className={styles.headerGlav}>
+        <a href='tel:88005055461' className={styles.headerRightButton}>+7 (800) 505-54-61</a>
+</div>
     </div>
 </header>
-<main>
-    
-</main>
-    </div>
+</>
     )
 }

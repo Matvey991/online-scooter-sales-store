@@ -15,57 +15,14 @@ header {
     font-family: 'Jast', sans-serif;
 }
 
-button {
-    color: #5D6C7B;
-    background-color: transparent;
-    cursor: pointer;
-    font-family: 'Jast', sans-serif;
-}
-
-.container {
+.header {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
     margin: 0 165px;
     margin-top: 11px;
 }
 
-.header {
+.headerLeft {
     display: flex;
-    width: 351px;
-    justify-content: space-between;
-    color: #5D6C7B;
-    font-weight: 400;
-    font-size: 12px;
-    font-family: 'Jast', sans-serif;
-}
-
-.headerLogo {
-    display: flex;
-    justify-content: space-between;
-}
-
-.headerTextContent {
-    display: flex;
-    width: 320px;
-    color: #5D6C7B;
-    justify-content: space-between;
-}
-
-.headerTextContent {
-}
-
-.headerTextConten {
-    display: flex;
-    width: 170px;
-    color: #5D6C7B;
-    justify-content: space-between;
-}
-
-.headerLogoContent {
-    display: flex;
-    width: 60px;
-    justify-content: space-between;
-}
-
-.headerNumber {
-    display: flex;
-    justify-content: space-between;
 }
