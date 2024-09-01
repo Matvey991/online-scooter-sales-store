@@ -12,7 +12,7 @@ a {
 
 header {
     color: #FFFFFF;
-    font-family: 'Jast', sans-serif;
+    font-family: 'Jost',  sans-serif;
 }
 
 .header {
@@ -23,6 +23,54 @@ header {
     margin-top: 11px;
 }
 
+.headerRightButton {
+    color: #282739;
+    font-weight: 500;
+}
+
 .headerLeft {
     display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerRight {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLeftButton {
+    background-color: #FFFFFF;
+    color: #5D6C7B;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 4px 4px;
+    transition: 0.2s linear;
+    font-size: 14px;
+}
+
+.headerLeftButton:hover {
+    background-color: #e7e7ec;
+}
+
+.headerLeftButton:active {
+    background-color: #d1d1d5;
+}
+
+.headerRightButton {
+     font-weight: 500;
+}
+
+.headerLeftIcon {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+}
+
+.hr {
+    border: 0.5px solid #ECF3FF;
 }

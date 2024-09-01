@@ -13,13 +13,18 @@ export const Header = () => {
         <button className={styles.headerLeftButton}>Сервис</button>
         <button className={styles.headerLeftButton}> Сотрудничество</button>
         <button className={styles.headerLeftButton}>Заказать звонок</button>
+        <div className={styles.headerLeftIcon}>
+        <Viber/>
+        <What/>
+        <Tg/>
+        </div>
 </div>
 <div className={styles.headerRight}>
-<div className={styles.headerGlav}>
         <a href='tel:88005055461' className={styles.headerRightButton}>+7 (800) 505-54-61</a>
+        <Number/>
 </div>
-    </div>
 </header>
+<hr className={styles.hr}/>
 </>
     )
 }
