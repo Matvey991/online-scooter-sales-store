@@ -1,22 +1,15 @@
 section {
     display: flex;
-    width: 1000px;
+    width: 1100px;
     align-items: center;
     justify-content: space-between;
     margin: 0 165px;
     margin-top: 27px;
-    font-family: 'Jost',  sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 input {
     outline: none;
-}
-
-.container {
-    display: flex;   
-    margin: 0 165px;
-    width: 1000px;
-    justify-content: space-between;
 }
 
 .sectionHeadingText {
@@ -34,6 +27,15 @@ input {
     cursor: pointer;
     background-color: #6F73EE;
     color: #FFFFFF;
+    transition: 0.2s linear;
+}
+
+.sectionButtonText:hover {
+    background-color: #686ce4;
+}
+
+.sectionButtonText:active {
+    background-color: #6165d2;
 }
 
 .sectionButtonDropMenuText {
@@ -55,6 +57,7 @@ input {
 }
 
 .sectionSearchInput {
+    display: flex;
     font-size: 14px;
     font-weight: 400;
 }
@@ -73,30 +76,56 @@ input {
     height: 35px;
 }
 
-.sectionLupaButtonF {
-    height: 40px;
-    padding: 11px 11px;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 0px 5px 5px 0px;
-    background-color: #6F73EE;
-}
-
 .sectionIcon {
     display: flex;
-    width: 10000px;
+    width: 175px;
     justify-content: space-between;
+}
+
+.sectionLupa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sectionLupaButton {
+    display: flex;
+    width: 40px;
+    border: 1.5px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    height: 40px;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: #6F73EE;
+    color: #FFFFFF;
+    transition: 0.1s linear;
 }
 
-.sectionIconBasket {
+.sectionLupaButton:hover {
+    background-color: #686ce4;
+}
+
+.sectionLupaButton:active {
+    background-color: #6165d2;
+}
+
+.sectionFormSearch {
     display: flex;
-    width: 94px;
+    width: 650px;
     justify-content: space-between;
 }
 
-.sectionIconPadding {
+.sectionParagraphBasket {
     display: flex;
-    width: 100px;
+    width: 55px;
     justify-content: space-between;
+}
+
+.sectionParagraphBasketText {
+    font-family: 'Jost', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.sectionIconButtonText {
+    background-color: #FFFFFF;
 }

@@ -16,6 +16,7 @@ const Section = () => {
                 <div className={styles.sectionnButton}>
                     <button className={styles.sectionButtonText}>Каталог</button>
                 </div>
+                <form className={styles.sectionFormSearch}>
                 <div className={styles.sectionSearchBlock}>
                     <div className={styles.sectionButtonDropMenu}>
                 <select className={styles.sectionButtonDropMenuText}>
@@ -26,19 +27,18 @@ const Section = () => {
                 <div className={styles.sectionSearchInput}>
                 <input className={styles.sectionSearchInputText} type='text' placeholder='Искать самокат KUGO'></input>
                 </div>
-                <div className={styles.mainMagnifier}>
-                <button className={styles.sectionLupaButtonF}><Vector/></button>
+                <div className={styles.sectionLupa}>
+                <button className={styles.sectionLupaButton} href='#'><Vector/></button>
                 </div>
                 </div>
-                <div className={styles.sectionIconPadding}>
+                </form>
                 <div className={styles.sectionIcon}>
-                    <button><Balance/></button>
-                    <button><Heart/></button>
-                    <div className={styles.sectionIconBasket}>
-                    <button><Shopping/></button>
-                        <p>Корзина</p>
+                    <button className={styles.sectionIconButtonText}><Balance/></button>
+                    <button className={styles.sectionIconButtonText}><Heart/></button>
+                    <button className={styles.sectionIconButtonText}><Shopping/></button>
+                    <div className={styles.sectionParagraphBasket}>
+                        <button className={styles.sectionParagraphBasketText}>Корзина</button>
                     </div>
-                </div>
                 </div>
         </section>
         </>
