@@ -28,7 +28,7 @@ const Section = () => {
                 <input className={styles.sectionSearchInputText} type='text' placeholder='Искать самокат KUGO'></input>
                 </div>
                 <div className={styles.sectionLupa}>
-                <button className={styles.sectionLupaButton} href='#'><Vector/></button>
+                <button className={styles.sectionLupaButton}><Vector/></button>
                 </div>
                 </div>
                 </form>

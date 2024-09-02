@@ -1,10 +1,11 @@
 section {
     display: flex;
-    width: 1100px;
+    width: 1120px;
     align-items: center;
     justify-content: space-between;
     margin: 0 165px;
-    margin-top: 27px;
+    margin-right: 800px;
+    height: 104px;
     font-family: 'Jost', sans-serif;
 }
 
@@ -68,7 +69,7 @@ input {
     align-items: center;
     border: 1.5px solid #6F73EE;
     border-radius: 5px;
-    width: 603px;
+    width: 903px;
     height: 40px;
 }
 
@@ -84,22 +85,12 @@ input {
     justify-content: space-between;
 }
 
-.sectionLupa {
-    display: flex;
-    justify-content: space-around;
-}
-
 .sectionLupaButton {
-    display: flex;
     width: 40px;
-    border: 1.5px;
+    height: 40px;
     border-radius: 0px 5px 5px 0px;
     cursor: pointer;
-    height: 40px;
-    justify-content: space-evenly;
-    align-items: center;
     background-color: #6F73EE;
-    color: #FFFFFF;
     transition: 0.1s linear;
 }
 
@@ -113,7 +104,7 @@ input {
 
 .sectionFormSearch {
     display: flex;
-    width: 650px;
+    width: 600px;
     justify-content: space-between;
 }
 
@@ -130,4 +121,9 @@ input {
 
 .sectionIconButtonText {
     background-color: #FFFFFF;
+}
+
+.sectionLupa {
+    width: 40px;
+    height: 40px;
 }
