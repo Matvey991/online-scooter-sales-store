@@ -16,6 +16,7 @@ input {
     font-weight: 700;
     font-size: 30px;
     color: #282739;
+    user-select: none;
 }
 
 .sectionButtonText {
@@ -27,6 +28,7 @@ input {
     background-color: #6F73EE;
     color: #FFFFFF;
     transition: 0.2s linear;
+    user-select: none;
 }
 
 .sectionButtonText:hover {
@@ -39,12 +41,13 @@ input {
 
 .sectionButtonDropMenuText {
     background-color: #F4F7FB;
-    padding: 8px 3px;
+    padding: 7px 3px;
     width: 65px;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
     transition: 0.1s linear;
+    user-select: none;
 }
 
 .sectionButtonDropMenuText:hover {
@@ -61,10 +64,6 @@ input {
     font-weight: 400;
 }
 
-
-input.sectionSearchInputText {
-    padding-left: 20px;
-}
 .sectionSearchBlock {
     display: flex;
     align-items: center;
@@ -72,6 +71,7 @@ input.sectionSearchInputText {
     border-radius: 5px;
     width: 903px;
     height: 40px;
+    user-select: none;
 }
 
 .sectionSearchInputText {
@@ -113,6 +113,7 @@ input.sectionSearchInputText {
     display: flex;
     width: 55px;
     justify-content: space-between;
+    user-select: none;
 }
 
 .sectionParagraphBasketText {

@@ -57,6 +57,7 @@ button {
 
 .mainLineButton {
     background-color: rgba(0, 0, 0, 0);
+    user-select: none;
 }
 
 .mainLineButtonsContainer {
@@ -70,6 +71,7 @@ button {
     width: 106px;
     font-size: 10px;
     color: #ffffff;
+    user-select: none;
     border-radius: 300px;
     background-color: #6F73EE;
     height: 20px;
@@ -79,6 +81,7 @@ button {
     height: 40px;
     transition: 0.1s linear;
     width: 117px;
+    user-select: none;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -89,4 +92,32 @@ button {
 
 .mainLineButtonSpec:active {
     background-color: #d1d1d5;
+}
+
+.mainLineIconAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+
+}
+
+.mainLineIconAndButton:hover {
+    background-color: #e7e7ec;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.mainLineIconAndButton:active {
+    background-color: #d1d1d5;
+}
+
+.mainLineButtonSpecialAndIcon {
+    height: 40px;
+    transition: 0.1s linear;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mainLineIcon {
+    width: 50px;
 }

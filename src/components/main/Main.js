@@ -1,5 +1,6 @@
 import styles from './main.module.css'
 import {ReactComponent as Samokat} from '../../helpers/samokat.svg'
+import {ReactComponent as Group} from '../../helpers/Group.svg'
 const Main = () => {
     return (
       <>
@@ -15,7 +16,10 @@ const Main = () => {
                   <button className={styles.mainLineButton}>Тест-драйв</button>
                   <button className={styles.mainLineButton}>Блог</button>
                   <button className={styles.mainLineButton}>Контакты</button>
-                  <button className={styles.mainLineButton}>Акции</button>
+                  <div className={styles.mainLineIconAndButton}>
+                  <button className={styles.mainLineButtonSpecialAndIcon}>Акции</button>
+                  <Group className={styles.mainLineIcon}/>
+                  </div>
                 </div>
               </div>
             </div>

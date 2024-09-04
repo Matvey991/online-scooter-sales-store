@@ -26,6 +26,7 @@ header {
 .headerRightButton {
     color: #282739;
     font-weight: 500;
+    user-select: none;
 }
 
 .headerLeft {
