@@ -33,9 +33,9 @@ const Section = () => {
                 </div>
                 </form>
                 <div className={styles.sectionIcon}>
-                    <button className={styles.sectionIconButtonText}><Balance/></button>
-                    <button className={styles.sectionIconButtonText}><Heart/></button>
-                    <button className={styles.sectionIconButtonText}><Shopping/></button>
+                    <a className={styles.sectionIconButtonText} href='!'><Balance/></a>
+                    <a className={styles.sectionIconButtonText} href='!'><Heart/></a>
+                    <a className={styles.sectionIconButtonText} href='!'><Shopping/></a>
                     <div className={styles.sectionParagraphBasket}>
                         <button className={styles.sectionParagraphBasketText}>Корзина</button>
                     </div>
