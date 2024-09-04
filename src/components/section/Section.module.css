@@ -16,7 +16,6 @@ input {
     font-weight: 700;
     font-size: 30px;
     color: #282739;
-    line-height: 43.35px;
 }
 
 .sectionButtonText {
@@ -40,7 +39,7 @@ input {
 
 .sectionButtonDropMenuText {
     background-color: #F4F7FB;
-    padding: 10px 3px;
+    padding: 8px 3px;
     width: 65px;
     border-radius: 5px;
     outline: none;

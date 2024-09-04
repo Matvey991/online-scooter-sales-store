@@ -1,91 +1,92 @@
+* {
+    font-family: 'Jost', sans-serif;
+}
+
 main {
     display: flex;
-    font-family: 'Jost', sans-serif;
-    width: 1140px;
-    justify-content: space-between;
-    margin: 0 165px;
-    margin-top: 30px;
 }
 
 button {
     cursor: pointer;
 }
 
-.mainButtonsStrip {
+.mainLineButtons {
     display: flex;
-    background-color: #F4F7FB;
     width: 100vw;
-    height: 40px;
-    padding: 0 527px 0 165px ;
-}
-
-
-.mainButtons {
-    display: flex;
-    width: 776px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.mainButtonStrip {
     background-color: #F4F7FB;
-    font-family: 'Jost', sans-serif;
-    width: 74px;
-    border-radius: 5px;
     height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainButtonsSpecial {
+    display: flex;
+    width: 231px;
+    justify-content: space-between;
+    align-items: center;
     transition: 0.1s linear;
 }
 
-.mainButtonStrip:hover {
-    background-color: #e7e7ec; 
+.mainButtonsSpecial:hover {
+    background-color: #e7e7ec;
+    border-radius: 5px;
 }
 
-.mainButtonStrip:active {
+.mainButtonsSpecial:active {
     background-color: #d1d1d5;
 }
 
-.mainButtonsTogether {
+.mainLineButtonsContainer {
     display: flex;
+}
+
+.mainLineButton {
     height: 40px;
-    cursor: pointer;
-    padding-left: 5px;
-    justify-content: space-between;
+    transition: 0.1s linear;
+    width: 74px;
+}
+
+.mainLineButton:hover {
+    background-color: #e7e7ec;
     border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
-.mainButtonsTogether:hover {
-    /* background-color: #e7e7ec; */
+.mainLineButton:active {
+    background-color: #d1d1d5;
 }
 
-.mainButtonTogether {
+.mainLineButton {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mainLineButtonsContainer {
     display: flex;
-    align-items: center;
-    background-color: #F4F7FB;
+    width: 706px;
     justify-content: space-between;
-    font-family: 'Jost', sans-serif;
 }
 
-.mainButtonTogetherSpecial {
-    display: flex;
-    color: #ffffff;
-    align-items: center;
-    font-family: 'Jost', sans-serif;
-    background-color: #6F73EE;
-    font-size: 10px;
-    border-radius: 300px;
-    justify-content: center;
+.mainLineButtonSpecial {
+    background-color: #F4F7FB;
     width: 106px;
+    font-size: 10px;
+    color: #ffffff;
+    border-radius: 300px;
+    background-color: #6F73EE;
     height: 20px;
 }
 
-.mainButtonsTogetherSpecial {
-    display: flex;
-    font-size: 10px;
-    align-items: center;
+.mainLineButtonSpec {
+    height: 40px;
+    transition: 0.1s linear;
+    width: 117px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.mainButtonsTogetherSpecial:hover {
+.mainLineButtonSpec:hover {
     background-color: #e7e7ec;
+    border-radius: 5px;
+}
+
+.mainLineButtonSpec:active {
+    background-color: #d1d1d5;
 }
