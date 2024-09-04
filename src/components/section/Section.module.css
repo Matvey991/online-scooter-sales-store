@@ -64,6 +64,10 @@ input {
     font-weight: 400;
 }
 
+
+input.sectionSearchInputText {
+    padding-left: 20px;
+}
 .sectionSearchBlock {
     display: flex;
     align-items: center;
@@ -71,7 +75,6 @@ input {
     border-radius: 5px;
     width: 903px;
     height: 40px;
-    user-select: none;
 }
 
 .sectionSearchInputText {

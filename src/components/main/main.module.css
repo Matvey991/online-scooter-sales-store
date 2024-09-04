@@ -96,15 +96,17 @@ button {
 
 .mainLineIconAndButton {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center;   
-
+    transition: 0.1s linear;
 }
 
 .mainLineIconAndButton:hover {
     background-color: #e7e7ec;
     border-radius: 5px;
     user-select: none;
+    height: 40px;
+    cursor: pointer;
 }
 
 .mainLineIconAndButton:active {
@@ -116,8 +118,18 @@ button {
     transition: 0.1s linear;
     user-select: none;
     background-color: rgba(0, 0, 0, 0);
+    padding-left: 10px;
 }
 
 .mainLineIcon {
-    width: 50px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.mainBackround {
+    width: 100px;
+}
+
+.mainBackroundFone {
+    width: 100px;
 }

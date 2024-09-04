@@ -1,6 +1,7 @@
 import styles from './main.module.css'
 import {ReactComponent as Samokat} from '../../helpers/samokat.svg'
 import {ReactComponent as Group} from '../../helpers/Group.svg'
+import {ReactComponent as Rectangle} from '../../helpers/Rectangle.svg'
 const Main = () => {
     return (
       <>
@@ -22,6 +23,9 @@ const Main = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className={styles.mainBackround}>
+              {/* <Rectangle className={styles.mainBackroundFone}/> */}
             </div>
         </main>
       </>
