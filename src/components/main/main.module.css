@@ -127,9 +127,38 @@ button {
 }
 
 .mainBackround {
-    width: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .mainBackroundFone {
-    width: 100px;
+    display: flex;
+    position: relative;
+    left: 0;
+}
+
+/* .mainBackroundElements {
+}
+
+ .mainElementButton {
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    height: 25px;
+    margin-top: 42px;
+    position: absolute;
+}
+
+.mainElementH1 {
+    color: #ffffff;
+    position: absolute;
+} */
+
+
+.mainSamokatFoto {
+    display: flex;
+    right: 0;
+    position: absolute;
 }

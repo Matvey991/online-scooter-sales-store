@@ -23,9 +23,14 @@ const Main = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className={styles.mainBackround}>
-              {/* <Rectangle className={styles.mainBackroundFone}/> */}
+              <div className={styles.mainBackround}>
+                <Rectangle className={styles.mainBackroundFone}/>
+                <div className={styles.mainBackroundElements}>
+                  <div className={styles.mainSamokat}>
+                    <Samokat className={styles.mainSamokatFoto}/>
+                </div>
+                </div>
+              </div>
             </div>
         </main>
       </>

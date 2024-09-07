@@ -80,6 +80,7 @@ input.sectionSearchInputText {
 .sectionSearchInputText {
     width: 495px;
     height: 37px;
+    user-select: none;
 }
 
 .sectionIcon {

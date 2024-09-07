@@ -50,8 +50,9 @@ header {
     cursor: pointer;
     border-radius: 5px;
     padding: 4px 4px;
-    transition: 0.2s linear;
+    transition: 0.1s linear;
     font-size: 14px;
+    user-select: none;
 }
 
 .headerLeftButton:hover {
