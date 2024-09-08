@@ -179,16 +179,16 @@ button {
     display: flex;
     font-weight: 400;
     user-select: none;
-    width: 73px;
+    width: 83px;
     align-items: center;
     justify-content: center;
     color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 5px;
-    height: 25px;
+    height: 27px;
     position: absolute;
     top: 42px;
-    left: 70px;
+    left: 105px;
 }
 
 .mainHeading {
