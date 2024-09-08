@@ -137,25 +137,6 @@ button {
     left: 0;
 }
 
-/* .mainBackroundElements {
-}
-
- .mainElementButton {
-    width: 70px;
-    background-color: rgba(0, 0, 0, 0);
-    color: #ffffff;
-    border-radius: 5px;
-    border: 1px solid #ffffff;
-    height: 25px;
-    margin-top: 42px;
-    position: absolute;
-}
-
-.mainElementH1 {
-    color: #ffffff;
-    position: absolute;
-} */
-
 .mainBackround {
     background-image: radial-gradient(
         farthest-corner at 859px 454px,
@@ -191,5 +172,72 @@ button {
 .mainBackroundParagraphText {
     position: absolute;
     top: 15px;
-    left: 45px;
+    left: 145px;
+}
+
+.mainElemetnsNewText {
+    display: flex;
+    font-weight: 400;
+    user-select: none;
+    width: 73px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    height: 25px;
+    position: absolute;
+    top: 42px;
+    left: 70px;
+}
+
+.mainHeading {
+    display: flex;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 50.58px;
+    width: 615px;
+    height: 102px;
+    user-select: none;
+    font-size: 35px;
+    position: absolute;
+    top: 90px;
+    left: 105px;
+}
+
+.mainBackroundDelivery {
+    display: flex;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    width: 349px;
+    height: 29px;
+    position: absolute;
+    bottom: 170px;
+    left: 105px;
+    user-select: none;
+}
+
+.mainBackroundButtonCatalog {
+    display: flex;
+    color: #6F73EE;
+    background-color: #ffffff;
+    width: 177px;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    height: 53px;
+    position: absolute;
+    left: 105px;
+    bottom: 70px;
+    border-radius: 5px;
+    transition: 0.1s linear;
+}
+
+.mainBackroundButtonCatalog:hover {
+    background-color: #f1f1f1;
+}
+
+.mainBackroundButtonCatalog:active {
+    background-color: #e5e5e5;
 }

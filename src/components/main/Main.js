@@ -27,6 +27,10 @@ const Main = () => {
               </div>
               <div className={styles.mainBackroundFoneELements}>
             <article className={styles.mainBackround}>
+              <p className={styles.mainElemetnsNewText}>Новинка</p>
+              <h2 className={styles.mainHeading}>ЭЛЕКТРОСАМОКАТЫ KUGOO KIRIN <br/> ОТ ОФИЦИАЛЬНОГО ДИЛЕРА</h2>
+              <p className={styles.mainBackroundDelivery}>с бесплатной доставкой по РФ от 1 дня</p>
+              <button className={styles.mainBackroundButtonCatalog}>Перейти в католог</button>
               <div className={styles.mainBackroundParagraph}>
                 <Kirin className={styles.mainBackroundParagraphText}/>
               </div>
