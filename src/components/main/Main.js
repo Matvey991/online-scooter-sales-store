@@ -2,6 +2,8 @@ import styles from './main.module.css'
 import {ReactComponent as Samokat} from '../../helpers/samokat.svg'
 import {ReactComponent as Group} from '../../helpers/Group.svg'
 import {ReactComponent as Rectangle} from '../../helpers/Rectangle.svg'
+import {ReactComponent as Kirin} from '../../helpers/kirin.svg'
+
 const Main = () => {
     return (
       <>
@@ -23,13 +25,15 @@ const Main = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.mainBackround}>
-                <Rectangle className={styles.mainBackroundFone}/>
-                <div className={styles.mainBackroundElements}>
-                  <div className={styles.mainSamokat}>
-                    <Samokat className={styles.mainSamokatFoto}/>
-                </div>
-                </div>
+              <div className={styles.mainBackroundFoneELements}>
+            <article className={styles.mainBackround}>
+              <div className={styles.mainBackroundParagraph}>
+                <Kirin className={styles.mainBackroundParagraphText}/>
+              </div>
+              <div className={styles.mainBackroundElements}>
+              <Samokat className={styles.mainBackroundFoto}/>
+              </div>
+            </article>
               </div>
             </div>
         </main>

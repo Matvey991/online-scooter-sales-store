@@ -156,9 +156,40 @@ button {
     position: absolute;
 } */
 
-
-.mainSamokatFoto {
+.mainBackround {
+    background-image: radial-gradient(
+        farthest-corner at 859px 454px,
+        #A6A9FF 0%,
+        #6F73EE 100%
+      );
     display: flex;
-    right: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 421px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mainBackroundFoneELements {
+    display: flex;
+    margin: 0 25px;
+    margin-top: 30px;
+}
+
+.mainBackroundFoto {
+    display: flex;
     position: absolute;
+    bottom: 0;
+    right: 80px;
+}
+
+.mainBackroundParagraph {
+    position: relative;
+}
+
+.mainBackroundParagraphText {
+    position: absolute;
+    top: 15px;
+    left: 45px;
 }
