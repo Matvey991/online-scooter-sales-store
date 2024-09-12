@@ -10,7 +10,7 @@ const Section = () => {
         <>
         <section className={styles.section}>
              <div className={styles.sectionHeading}> 
-                    <h2 className={styles.sectionHeadingText}>KUGGO</h2>
+                    <h2 className={styles.sectionHeadingText}>KUGOO</h2>
             </div>
                 <div className={styles.sectionnButton}>
                     <button className={styles.sectionButtonText}>Каталог</button>

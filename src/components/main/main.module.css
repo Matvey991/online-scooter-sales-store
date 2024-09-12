@@ -154,6 +154,7 @@ button {
 
 .mainBackroundFoneELements {
     display: flex;
+    width: 1380px;
     margin: 0 25px;
     margin-top: 30px;
 }
