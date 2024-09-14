@@ -1,0 +1,129 @@
+* {
+    font-family: 'Jost',  sans-serif;
+}
+
+h1, p {
+    user-select: none;
+}
+
+footer {
+    width: 100vw;
+}
+
+.footerAdditionalInformationParagraphs {
+    display: flex;
+    margin: 0 165px; 
+    margin-top: 39px;
+    width: 1140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerYandexElements {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerYandexParagraph {
+    width: 109px;
+    height: 17px;
+    margin-top: 8px;
+}
+
+.footerYandexLogo {
+    width: 19px;
+    height: 29px;
+}
+
+.footerBackroundYandex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background-color: #FC3F1D;
+    border-radius: 5px;
+}
+
+.footerAdditionalInformationNumber1 {
+    width: 206px;
+    height: 60px;
+}
+
+.footerAdditionalInformationNumber2 {
+    width: 152px;
+    height: 60px;
+}
+
+.footerAdditionalInformationNumber3 {
+    width: 154px;
+    height: 60px;
+}
+
+.footerAdditionalInformationNumber4 {
+    width: 190px;
+    height: 76px;
+}
+
+.footerHeadingtextNumber1 {
+    width: 206px;
+    height: 36px;
+    font-weight: 600;
+    user-select: none;
+    font-size: 25px;
+    line-height: 36.13px;
+}
+
+.footerHeadingtextNumber2 {
+    width: 152px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 25px;
+    user-select: none;
+}
+
+.footerHeadingtextNumber3 {
+    width: 130px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 25px;
+    user-select: none;
+}
+
+.footerParagraphNumber1 {
+    width: 143px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    user-select: none;
+}
+
+.footerParagraphNumber2 {
+    width: 90px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    user-select: none;
+}
+
+.footerParagraphNumber3 {
+    width: 154px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    user-select: none;
+}
+
+.footerStar {
+    width: 14px;
+    height: 14px;
+}
+
+.footerYandexStarAndHeading {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: space-between;
+}

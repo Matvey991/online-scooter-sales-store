@@ -1,7 +1,7 @@
-import { Header } from "./components/Header/Header";
-import Main from "./components/main/Main";
-import Section from "./components/section/Section";
-
+import Footer from './components/Footer/Footer';
+import { Header } from './components/Layout/Header/Header';
+import Main from './components/Layout/main/Main';
+import Section from './components/Layout/section/Section';
 import styles from './style.module.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Header/>
       <Section/>
       <Main/>
+      <Footer/>
     </div>
   );
 }

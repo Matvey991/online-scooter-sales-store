@@ -1,14 +1,14 @@
+import {ReactComponent as Samokat} from '../../..//helpers/samokat.svg'
+import {ReactComponent as Group} from '../../../helpers/Group.svg'
+import {ReactComponent as Rectangle} from '../../../helpers/Rectangle.svg'
+import {ReactComponent as Kirin} from '../../../helpers/kirin.svg'
 import styles from './main.module.css'
-import {ReactComponent as Samokat} from '../../helpers/samokat.svg'
-import {ReactComponent as Group} from '../../helpers/Group.svg'
-import {ReactComponent as Rectangle} from '../../helpers/Rectangle.svg'
-import {ReactComponent as Kirin} from '../../helpers/kirin.svg'
 
 const Main = () => {
     return (
       <>
         <main className={styles.main}>
-            <div className={styles.mainLine}>
+        <div className={styles.mainLine}>
               <div className={styles.mainLineButtons}>
                 <div className={styles.mainLineButtonsContainer}>
                   <button className={styles.mainLineButton}>О магазине</button>
@@ -38,8 +38,8 @@ const Main = () => {
               <Samokat className={styles.mainBackroundFoto}/>
               </div>
             </article>
-              </div>
             </div>
+              </div>
         </main>
       </>
     );
