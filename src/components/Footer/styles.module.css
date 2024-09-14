@@ -21,9 +21,12 @@ footer {
 
 .footerYandexElements {
     display: flex;
-    width: 180px;
+    width: 210px;
+    padding: 10px;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid rgba(93,108,123, 10%);
+    border-radius: 5px;
 }
 
 .footerYandexParagraph {
