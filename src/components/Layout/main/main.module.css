@@ -29,6 +29,7 @@ button {
     justify-content: space-between;
     align-items: center;
     transition: 0.1s linear;
+    cursor: pointer;
 }
 
 .mainButtonsSpecial:hover {
@@ -68,7 +69,6 @@ button {
     display: flex;
     width: 706px;
     justify-content: space-between;
-    cursor: pointer;
 }
 
 .mainLineButtonSpecial {

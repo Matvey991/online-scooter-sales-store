@@ -1,7 +1,8 @@
-import Footer from './components/Footer/Footer';
+import Footer from './components/Layout/Footer/Footer';
 import { Header } from './components/Layout/Header/Header';
 import Main from './components/Layout/main/Main';
 import Section from './components/Layout/section/Section';
+import { SectionScooters } from './components/Layout/SectionScooters/SectionScooters';
 import styles from './style.module.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Section/>
       <Main/>
       <Footer/>
+      <SectionScooters/>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import styles from './Header.module.css'
-import {ReactComponent as Viber} from '../../../helpers/viber.svg'
-import {ReactComponent as Tg} from '../../../helpers/tg.svg'
-import {ReactComponent as What} from '../../../helpers/what.svg'
-import {ReactComponent as Number} from '../../../helpers/numbers.svg'
+import {ReactComponent as Viber} from '../../../helpers/icons/viber.svg'
+import {ReactComponent as Tg} from '../../../helpers/icons/tg.svg'
+import {ReactComponent as What} from '../../../helpers/icons/what.svg'
+import {ReactComponent as Number} from '../../../helpers/icons/numbers.svg'
 
 
 export const Header = () => {

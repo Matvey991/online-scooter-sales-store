@@ -2,6 +2,12 @@
     font-family: 'Jost',  sans-serif;
 }
 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 h1, p {
     user-select: none;
 }
