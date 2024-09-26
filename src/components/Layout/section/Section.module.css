@@ -1,140 +1,139 @@
 section {
-    display: flex;
-    width: 1120px;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 165px;
-    height: 94px;
-    font-family: 'Jost', sans-serif;
+  display: flex;
+  width: 1120px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 165px;
+  height: 94px;
+  font-family: "Jost", sans-serif;
 }
 
 input {
-    outline: none;
+  outline: none;
 }
 
 .sectionHeadingText {
-    font-weight: 700;
-    font-size: 30px;
-    color: #282739;
-    user-select: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #282739;
+  user-select: none;
 }
 
 .sectionButtonText {
-    height: 40px;
-    width: 114px;
-    border-radius: 5px;
-    border: 1.5px;
-    cursor: pointer;
-    background-color: #6F73EE;
-    color: #FFFFFF;
-    transition: 0.2s linear;
-    user-select: none;
+  height: 40px;
+  width: 114px;
+  border-radius: 5px;
+  border: 1.5px;
+  cursor: pointer;
+  background-color: #6f73ee;
+  color: #ffffff;
+  transition: 0.2s linear;
+  user-select: none;
 }
 
 .sectionButtonText:hover {
-    background-color: #686ce4;
+  background-color: #686ce4;
 }
 
 .sectionButtonText:active {
-    background-color: #6165d2;
+  background-color: #6165d2;
 }
 
 .sectionButtonDropMenuText {
-    background-color: #F4F7FB;
-    padding: 7px 3px;
-    width: 65px;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    transition: 0.1s linear;
-    user-select: none;
+  background-color: #f4f7fb;
+  padding: 7px 3px;
+  width: 65px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s linear;
+  user-select: none;
 }
 
 .sectionButtonDropMenuText:hover {
-    background-color: #e7e7ec;
+  background-color: #e7e7ec;
 }
 
 .sectionButtonDropMenuText:active {
-    background-color: #d1d1d5;
+  background-color: #d1d1d5;
 }
 
 .sectionSearchInput {
-    display: flex;
-    font-size: 14px;
-    font-weight: 400;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
 }
-
 
 input.sectionSearchInputText {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 .sectionSearchBlock {
-    display: flex;
-    align-items: center;
-    border: 1.5px solid #6F73EE;
-    border-radius: 5px;
-    width: 903px;
-    height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #6f73ee;
+  border-radius: 5px;
+  width: 903px;
+  height: 40px;
 }
 
 .sectionSearchInputText {
-    width: 495px;
-    height: 37px;
-    user-select: none;
+  width: 495px;
+  height: 37px;
+  user-select: none;
 }
 
 .sectionIcon {
-    display: flex;
-    width: 145px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  width: 145px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sectionLupaButton {
-    width: 40px;
-    height: 40px;
-    border-radius: 0px 5px 5px 0px;
-    cursor: pointer;
-    background-color: #6F73EE;
-    transition: 0.1s linear;
+  width: 40px;
+  height: 40px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  background-color: #6f73ee;
+  transition: 0.1s linear;
 }
 
 .sectionLupaButton:hover {
-    background-color: #686ce4;
+  background-color: #686ce4;
 }
 
 .sectionLupaButton:active {
-    background-color: #6165d2;
+  background-color: #6165d2;
 }
 
 .sectionFormSearch {
-    display: flex;
-    width: 600px;
-    justify-content: space-between;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
 }
 
 .sectionParagraphBasket {
-    display: flex;
-    width: 55px;
-    justify-content: space-between;
-    user-select: none;
+  display: flex;
+  width: 55px;
+  justify-content: space-between;
+  user-select: none;
 }
 
 .sectionParagraphBasketText {
-    font-family: 'Jost', sans-serif;
-    background-color: #FFFFFF;
+  font-family: "Jost", sans-serif;
+  background-color: #ffffff;
 }
 
 .sectionIconButtonText {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .sectionLupa {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .sectionIconButtonText {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }

@@ -1,80 +1,80 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    border: none;
-    box-sizing: border-box;
-    font-family: 'Jost',  sans-serif;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 header {
-    color: #FFFFFF;
-    font-family: 'Jost',  sans-serif;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
 }
 
 .header {
-    display: flex;
-    width: 1100px;
-    justify-content: space-between;
-    margin: 0 185px;
-    margin-top: 11px;
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  margin: 0 185px;
+  margin-top: 11px;
 }
 
 .headerRightButton {
-    color: #282739;
-    font-weight: 500;
-    user-select: none;
+  color: #282739;
+  font-weight: 500;
+  user-select: none;
 }
 
 .headerLeft {
-    display: flex;
-    width: 400px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headerRight {
-    display: flex;
-    width: 165px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  width: 165px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .headerLeftButton {
-    background-color: #FFFFFF;
-    color: #5D6C7B;
-    font-weight: 400;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 4px 4px;
-    transition: 0.1s linear;
-    font-size: 14px;
-    user-select: none;
+  background-color: #ffffff;
+  color: #5d6c7b;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 4px;
+  transition: 0.1s linear;
+  font-size: 14px;
+  user-select: none;
 }
 
 .headerLeftButton:hover {
-    background-color: #e7e7ec;
+  background-color: #e7e7ec;
 }
 
 .headerLeftButton:active {
-    background-color: #d1d1d5;
+  background-color: #d1d1d5;
 }
 
 .headerRightButton {
-     font-weight: 500;
+  font-weight: 500;
 }
 
 .headerLeftIcon {
-    display: flex;
-    width: 60px;
-    justify-content: space-between;
+  display: flex;
+  width: 60px;
+  justify-content: space-between;
 }
 
 .hr {
-    margin-top: 20px;
-    border: 0.5px solid #ECF3FF;
+  margin-top: 20px;
+  border: 0.5px solid #ecf3ff;
 }

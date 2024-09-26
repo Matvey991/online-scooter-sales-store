@@ -1,254 +1,254 @@
 * {
-    font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 main {
-    display: flex;
+  display: flex;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .main {
-    display: flex;
+  display: flex;
 }
 
 .mainLineButtons {
-    display: flex;
-    width: 100vw;
-    background-color: #F4F7FB;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100vw;
+  background-color: #f4f7fb;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainButtonsSpecial {
-    display: flex;
-    width: 231px;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.1s linear;
-    cursor: pointer;
+  display: flex;
+  width: 231px;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.1s linear;
+  cursor: pointer;
 }
 
 .mainButtonsSpecial:hover {
-    background-color: #e7e7ec;
-    border-radius: 5px;
+  background-color: #e7e7ec;
+  border-radius: 5px;
 }
 
 .mainButtonsSpecial:active {
-    background-color: #d1d1d5;
+  background-color: #d1d1d5;
 }
 
 .mainLineButtonsContainer {
-    display: flex;
+  display: flex;
 }
 
 .mainLineButton {
-    height: 40px;
-    transition: 0.1s linear;
-    width: 74px;
+  height: 40px;
+  transition: 0.1s linear;
+  width: 74px;
 }
 
 .mainLineButton:hover {
-    background-color: #e7e7ec;
-    border-radius: 5px;
+  background-color: #e7e7ec;
+  border-radius: 5px;
 }
 
 .mainLineButton:active {
-    background-color: #d1d1d5;
+  background-color: #d1d1d5;
 }
 
 .mainLineButton {
-    background-color: rgba(0, 0, 0, 0);
-    user-select: none;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
 }
 
 .mainLineButtonsContainer {
-    display: flex;
-    width: 706px;
-    justify-content: space-between;
+  display: flex;
+  width: 706px;
+  justify-content: space-between;
 }
 
 .mainLineButtonSpecial {
-    background-color: #F4F7FB;
-    width: 106px;
-    font-size: 10px;
-    color: #ffffff;
-    user-select: none;
-    border-radius: 300px;
-    background-color: #6F73EE;
-    height: 20px;
+  background-color: #f4f7fb;
+  width: 106px;
+  font-size: 10px;
+  color: #ffffff;
+  user-select: none;
+  border-radius: 300px;
+  background-color: #6f73ee;
+  height: 20px;
 }
 
 .mainLineButtonSpec {
-    height: 40px;
-    transition: 0.1s linear;
-    width: 117px;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0);
+  height: 40px;
+  transition: 0.1s linear;
+  width: 117px;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .mainLineButtonSpec:hover {
-    background-color: #e7e7ec;
-    border-radius: 5px;
+  background-color: #e7e7ec;
+  border-radius: 5px;
 }
 
 .mainLineButtonSpec:active {
-    background-color: #d1d1d5;
+  background-color: #d1d1d5;
 }
 
 .mainLineIconAndButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.1s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s linear;
 }
 
 .mainLineIconAndButton:hover {
-    background-color: #e7e7ec;
-    border-radius: 5px;
-    user-select: none;
-    height: 40px;
-    cursor: pointer;
+  background-color: #e7e7ec;
+  border-radius: 5px;
+  user-select: none;
+  height: 40px;
+  cursor: pointer;
 }
 
 .mainLineIconAndButton:active {
-    background-color: #d1d1d5;
+  background-color: #d1d1d5;
 }
 
 .mainLineButtonSpecialAndIcon {
-    height: 40px;
-    transition: 0.1s linear;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0);
-    padding-left: 10px;
+  height: 40px;
+  transition: 0.1s linear;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 10px;
 }
 
 .mainLineIcon {
-    width: 40px;
-    cursor: pointer;
+  width: 40px;
+  cursor: pointer;
 }
 
 .mainBackround {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .mainBackroundFone {
-    display: flex;
-    position: relative;
-    left: 0;
+  display: flex;
+  position: relative;
+  left: 0;
 }
 
 .mainBackround {
-    background-image: radial-gradient(
-        farthest-corner at 859px 454px,
-        #A6A9FF 0%,
-        #6F73EE 100%
-      );
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 421px;
-    width: 100%;
-    border-radius: 10px;
-    position: relative;
+  background-image: radial-gradient(
+    farthest-corner at 859px 454px,
+    #a6a9ff 0%,
+    #6f73ee 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 421px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
 }
 
 .mainBackroundFoneELements {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 25px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+  margin-top: 30px;
 }
 
 .mainBackroundFoto {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    right: 80px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 80px;
 }
 
 .mainBackroundParagraph {
-    position: relative;
+  position: relative;
 }
 
 .mainBackroundParagraphText {
-    position: absolute;
-    top: 15px;
-    left: -80px;
+  position: absolute;
+  top: 15px;
+  left: -80px;
 }
 
 .mainElemetnsNewText {
-    display: flex;
-    font-weight: 400;
-    user-select: none;
-    width: 83px;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    height: 27px;
-    position: absolute;
-    top: 42px;
-    left: 105px;
+  display: flex;
+  font-weight: 400;
+  user-select: none;
+  width: 83px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  height: 27px;
+  position: absolute;
+  top: 42px;
+  left: 105px;
 }
 
 .mainHeading {
-    display: flex;
-    color: #ffffff;
-    font-weight: 500;
-    line-height: 50.58px;
-    width: 615px;
-    height: 102px;
-    user-select: none;
-    font-size: 35px;
-    position: absolute;
-    top: 90px;
-    left: 105px;
+  display: flex;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 50.58px;
+  width: 615px;
+  height: 102px;
+  user-select: none;
+  font-size: 35px;
+  position: absolute;
+  top: 90px;
+  left: 105px;
 }
 
 .mainBackroundDelivery {
-    display: flex;
-    color: #ffffff;
-    font-weight: 400;
-    font-size: 20px;
-    width: 349px;
-    height: 29px;
-    position: absolute;
-    bottom: 170px;
-    left: 105px;
-    user-select: none;
+  display: flex;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  width: 349px;
+  height: 29px;
+  position: absolute;
+  bottom: 170px;
+  left: 105px;
+  user-select: none;
 }
 
 .mainBackroundButtonCatalog {
-    display: flex;
-    color: #6F73EE;
-    background-color: #ffffff;
-    width: 177px;
-    align-items: center;
-    justify-content: center;
-    user-select: none;
-    height: 53px;
-    position: absolute;
-    left: 105px;
-    bottom: 70px;
-    border-radius: 5px;
-    transition: 0.1s linear;
+  display: flex;
+  color: #6f73ee;
+  background-color: #ffffff;
+  width: 177px;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  height: 53px;
+  position: absolute;
+  left: 105px;
+  bottom: 70px;
+  border-radius: 5px;
+  transition: 0.1s linear;
 }
 
 .mainBackroundButtonCatalog:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .mainBackroundButtonCatalog:active {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .mainAdditionalInformationParagraphs {
-    display: flex;
+  display: flex;
 }
