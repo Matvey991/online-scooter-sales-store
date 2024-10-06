@@ -4,7 +4,7 @@ import { ReactComponent as Shopping } from "../../../helpers/icons/shopping.svg"
 import { ReactComponent as Heart } from "../../../helpers/icons/Heart.svg";
 import { ReactComponent as Balance } from "../../../helpers/icons/balance.svg";
 
-const Section = () => {
+export const Section = () => {
   return (
     <>
       <section className={styles.section}>
@@ -56,5 +56,3 @@ const Section = () => {
     </>
   );
 };
-
-export default Section;

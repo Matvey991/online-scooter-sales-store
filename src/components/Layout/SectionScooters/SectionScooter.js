@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
-import { getLogit, getScooters } from "../../../helpers/api/api";
+import { getScooters } from "../../../helpers/api/api";
+import { getLogit } from "../../../helpers/api/api";
+import styles from "./SectionScooter.module.css";
+import { SectionScooterItem } from "../../SectionScooterItem/SectionScooterItem";
 
 export const SectionScooter = () => {
   const [state, setState] = useState(null);
@@ -14,7 +17,7 @@ export const SectionScooter = () => {
   const funcLogin = () => {
     try {
       getLogit({ username: stateLogin, password: statePassword }).then((res) =>
-        console.log(res)
+        console.log({ res })
       );
     } catch (error) {
       setError(true);
@@ -26,28 +29,28 @@ export const SectionScooter = () => {
 
   return (
     <div>
-      {state
-        ? state.map((el) => (
-            <div key={el.id}>
-              <p>{el.name}</p>
-              <img
-                src={el.image}
-                alt=""
-                style={{ width: "100px", heigth: "100px" }}
-              />
-            </div>
-          ))
-        : null}
-      <button onClick={funcLogin}>click</button>
       <input
+        className={styles.inputLogin}
         value={stateLogin}
         onChange={(e) => setStateLogin(e.target.value)}
+        placeholder="Введите логин"
       />
+      <br />
       <input
+        className={styles.inputPassword}
         value={statePassword}
         onChange={(e) => setStatePassword(e.target.value)}
+        placeholder="Введите пароль"
       />
       {error ? <h1>Ошибка</h1> : null}
+      <div className={styles.divBtnSend}>
+        <button className={styles.btnSend} onClick={funcLogin}>
+          Войти
+        </button>
+      </div>
+      {state
+        ? state.map((el) => <SectionScooterItem key={el.id} el={el} />)
+        : null}
     </div>
   );
 };
