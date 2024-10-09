@@ -101,9 +101,10 @@ button {
 
 .mainLineIconAndButton {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   transition: 0.1s linear;
+  width: 90px;
 }
 
 .mainLineIconAndButton:hover {
@@ -127,8 +128,9 @@ button {
 }
 
 .mainLineIcon {
-  width: 40px;
+  width: 30px;
   cursor: pointer;
+  padding-right: 10px;
 }
 
 .mainBackround {
