@@ -4,7 +4,6 @@ import { ReactComponent as Glyph } from "../../../../helpers/icons/Glyph.svg";
 import { ReactComponent as Star } from "../../../../helpers/icons/Star.svg";
 
 export const Footer = () => {
-  //fdadf
   return (
     <footer className={styles.footer}>
       <div className={styles.footerAdditionalInformationParagraphs}>
