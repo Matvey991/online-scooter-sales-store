@@ -6,15 +6,21 @@ export const SectionScooterItem = ({ el }) => {
       <div className={styles.backroundImg}>
         <img src={el.image} className={styles.imgScooter} alt="." />
       </div>
-      <h4>{el.name}</h4>
+      <hr className={styles.hr} />
+      <p className={styles.name}>{el.name}</p>
+      <hr className={styles.hr} />
       <div className={styles.information}>
-        <p>{`Батарея ${el.battery}`}</p>
-        <p>{el.power}</p>
-        <p>{`${el.speed} км/ч`}</p>
-        <p>{`${el.times / 60} часов`}</p>
+        <div className={styles.informationLeft}>
+          <p>{el.battery}</p>
+          <p>{el.power}</p>
+        </div>
+        <div className={styles.informationRight}>
+          <p className={styles.speed}>{`${el.speed} км/ч`}</p>
+          <p>{`${el.times / 60} часов`}</p>
+        </div>
       </div>
       <div className={styles.priceCard}>
-        <h4 className={styles.price}>{el.price}</h4>
+        <p className={styles.price}>{el.price}</p>
       </div>
       <div className={styles.divBtnBuy}>
         <button className={styles.btnBuy}>Купить в 1 клик</button>

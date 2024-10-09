@@ -5,6 +5,7 @@
   border-radius: 5px;
   width: 370px;
   height: 40px;
+  margin-top: 50px;
 }
 
 .inputPassword {
@@ -30,6 +31,11 @@ input.inputPassword {
   align-items: center;
 }
 
+.state {
+  display: wrap;
+  flex-wrap: wrap;
+}
+
 .btnSend {
   height: 40px;
   width: 114px;
@@ -49,4 +55,21 @@ input.inputPassword {
 
 .btnSend:active {
   background-color: #6165d2;
+}
+
+.state {
+  display: wrap;
+  flex-wrap: wrap;
+}
+
+.fjjfj {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.registrationInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
