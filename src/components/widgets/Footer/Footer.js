@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import { ReactComponent as Glyph } from "../../../helpers/icons/Glyph.svg";
 import { ReactComponent as Star } from "../../../helpers/icons/Star.svg";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerAdditionalInformationParagraphs}>
@@ -37,5 +37,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

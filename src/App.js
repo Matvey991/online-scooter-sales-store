@@ -1,7 +1,7 @@
-import Footer from "./components/Layout/Footer/Footer";
-import { Header } from "./components/Layout/Header/Header";
-import Main from "./components/Layout/main/Main";
 import { SectionScooter } from "./components/Layout/SectionScooters/SectionScooter";
+import { Footer } from "./components/widgets/Footer/Footer";
+import { Header } from "./components/widgets/Header/Header";
+import { Main } from "./components/widgets/main/Main";
 import styles from "./style.module.css";
 
 function App() {
