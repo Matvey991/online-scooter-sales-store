@@ -14,20 +14,26 @@ a {
 header {
   color: #ffffff;
   font-family: "Jost", sans-serif;
-}
-
-.header {
-  display: flex;
-  width: 1100px;
-  justify-content: space-between;
-  margin: 0 185px;
-  margin-top: 11px;
+  flex-direction: column;
 }
 
 .headerRightButton {
   color: #282739;
   font-weight: 500;
   user-select: none;
+}
+
+.topButtons {
+  display: flex;
+}
+
+.topButtonsContainer {
+  display: flex;
+  align-items: center;
+  margin: 0px 164px;
+  margin-top: 11px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .headerLeft {

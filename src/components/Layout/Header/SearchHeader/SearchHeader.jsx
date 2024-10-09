@@ -1,10 +1,11 @@
-import styles from "./Section.module.css";
-import { ReactComponent as Vector } from "../../..//helpers/icons/Vector.svg";
-import { ReactComponent as Shopping } from "../../../helpers/icons/shopping.svg";
-import { ReactComponent as Heart } from "../../../helpers/icons/Heart.svg";
-import { ReactComponent as Balance } from "../../../helpers/icons/balance.svg";
+import styles from "./SearchHeader.module.css";
+import { ReactComponent as Vector } from "../../../../helpers/icons/Vector.svg";
+import { ReactComponent as Shopping } from "../../../../helpers/icons/shopping.svg";
+import { ReactComponent as Heart } from "../../../..//helpers/icons/Heart.svg";
+import { ReactComponent as Balance } from "../../../../helpers/icons/balance.svg";
+import CatalogHeader from "../CatalogHeader/CatalogHeader";
 
-export const Section = () => {
+export const SearchHeader = ({ cal }) => {
   return (
     <>
       <section className={styles.section}>
@@ -12,7 +13,9 @@ export const Section = () => {
           <h2 className={styles.sectionHeadingText}>KUGOO</h2>
         </div>
         <div className={styles.sectionnButton}>
-          <button className={styles.sectionButtonText}>Каталог</button>
+          <button onClick={() => cal()} className={styles.sectionButtonText}>
+            Каталог
+          </button>
         </div>
         <form className={styles.sectionFormSearch}>
           <div className={styles.sectionSearchBlock}>

@@ -1,4 +1,4 @@
-.inputLogin {
+/* .inputLogin {
   display: flex;
   align-items: center;
   border: 1.5px solid #6f73ee;
@@ -29,7 +29,7 @@ input.inputPassword {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .state {
   display: wrap;
@@ -62,9 +62,10 @@ input.inputPassword {
   flex-wrap: wrap;
 }
 
-.fjjfj {
+.Scooters {
   display: grid;
   grid-template-columns: repeat(4, 2fr);
+  margin-top: 20px;
 }
 
 .registrationInputs {
