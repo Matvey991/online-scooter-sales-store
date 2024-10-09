@@ -1,8 +1,8 @@
-import styles from "./styles.module.css";
-import { ReactComponent as Accumulator } from "../../../../helpers/icons/Accumulator.svg";
-import { ReactComponent as Timer } from "../../../../helpers/icons/Timer.svg";
-import { ReactComponent as Power } from "../../../../helpers/icons/Power.svg";
-import { ReactComponent as Speedometer } from "../../../../helpers/icons/Speedometer.svg";
+import styles from "./SectionScooterItem.module.css";
+import { ReactComponent as Accumulator } from "../../../../../helpers/icons/Accumulator.svg";
+import { ReactComponent as Timer } from "../../../../../helpers/icons/Timer.svg";
+import { ReactComponent as Power } from "../../../../../helpers/icons/Power.svg";
+import { ReactComponent as Speedometer } from "../../../../../helpers/icons/Speedometer.svg";
 
 export const SectionScooterItem = ({ el }) => {
   return (

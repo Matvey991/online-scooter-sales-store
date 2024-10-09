@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { ReactComponent as Glyph } from "../../../helpers/icons/Glyph.svg";
-import { ReactComponent as Star } from "../../../helpers/icons/Star.svg";
+import { ReactComponent as Glyph } from "../../../../helpers/icons/Glyph.svg";
+import { ReactComponent as Star } from "../../../../helpers/icons/Star.svg";
 
 export const Footer = () => {
   return (

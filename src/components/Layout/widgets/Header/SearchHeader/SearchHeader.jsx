@@ -1,8 +1,8 @@
 import styles from "./SearchHeader.module.css";
-import { ReactComponent as Vector } from "../../../../helpers/icons/Vector.svg";
-import { ReactComponent as Shopping } from "../../../../helpers/icons/shopping.svg";
-import { ReactComponent as Heart } from "../../../..//helpers/icons/Heart.svg";
-import { ReactComponent as Balance } from "../../../../helpers/icons/balance.svg";
+import { ReactComponent as Vector } from "../../../../../helpers/icons/Vector.svg";
+import { ReactComponent as Shopping } from "../../../../../helpers/icons/shopping.svg";
+import { ReactComponent as Heart } from "../../../../../helpers/icons/Heart.svg";
+import { ReactComponent as Balance } from "../../../../../helpers/icons/balance.svg";
 
 export const SearchHeader = ({ cal }) => {
   return (

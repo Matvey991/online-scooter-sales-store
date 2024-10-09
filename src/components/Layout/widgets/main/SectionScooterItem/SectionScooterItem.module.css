@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 .card {
   width: 255px;
   height: 492px;

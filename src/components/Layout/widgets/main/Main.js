@@ -1,6 +1,6 @@
-import { ReactComponent as Samokat } from "../../..//helpers/icons/samokat.svg";
-import { ReactComponent as Group } from "../../../helpers/icons/Group.svg";
-import { ReactComponent as Kirin } from "../../../helpers/icons/kirin.svg";
+import { ReactComponent as Samokat } from "../../../../helpers/icons/samokat.svg";
+import { ReactComponent as Group } from "../../../../helpers/icons/Group.svg";
+import { ReactComponent as Kirin } from "../../../../helpers/icons/kirin.svg";
 import styles from "./main.module.css";
 
 export const Main = () => {

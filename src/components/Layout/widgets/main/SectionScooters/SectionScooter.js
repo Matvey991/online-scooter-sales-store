@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { getScooters } from "../../../helpers/api/api";
 import styles from "./SectionScooter.module.css";
-import { SectionScooterItem } from "./SectionScooterItem/SectionScooterItem";
+import { getScooters } from "../../../../../../src/helpers/api/api";
+import { SectionScooterItem } from "../SectionScooterItem/SectionScooterItem";
 
 export const SectionScooter = () => {
   const [state, setState] = useState(null);
