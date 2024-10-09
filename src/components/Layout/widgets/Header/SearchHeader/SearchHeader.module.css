@@ -39,9 +39,9 @@ input {
   background-color: #6165d2;
 }
 
-.sectionButtonDropMenuText {
+.ButtonDropMenuText {
   background-color: #f4f7fb;
-  padding: 7px 3px;
+  padding: 3px;
   width: 65px;
   border-radius: 5px;
   outline: none;
@@ -50,24 +50,24 @@ input {
   user-select: none;
 }
 
-.sectionButtonDropMenuText:hover {
+.ButtonDropMenuText:hover {
   background-color: #e7e7ec;
 }
 
-.sectionButtonDropMenuText:active {
+.ButtonDropMenuText:active {
   background-color: #d1d1d5;
 }
 
-.sectionSearchInput {
+.SearchInput {
   display: flex;
   font-size: 14px;
   font-weight: 400;
 }
 
-input.sectionSearchInputText {
+input.SearchInputText {
   padding-left: 20px;
 }
-.sectionSearchBlock {
+.SearchBlock {
   display: flex;
   align-items: center;
   border: 1.5px solid #6f73ee;
@@ -75,21 +75,20 @@ input.sectionSearchInputText {
   width: 903px;
   height: 40px;
 }
-
-.sectionSearchInputText {
+.SearchInputText {
   width: 495px;
   height: 37px;
   user-select: none;
 }
 
-.sectionIcon {
+.SearchIcon {
   display: flex;
   width: 145px;
   align-items: center;
   justify-content: space-between;
 }
 
-.sectionLupaButton {
+.LupaButton {
   width: 40px;
   height: 40px;
   border-radius: 0px 5px 5px 0px;
@@ -98,33 +97,37 @@ input.sectionSearchInputText {
   transition: 0.1s linear;
 }
 
-.sectionLupaButton:hover {
+.LupaButton:hover {
   background-color: #686ce4;
 }
 
-.sectionLupaButton:active {
+.LupaButton:active {
   background-color: #6165d2;
 }
 
-.sectionFormSearch {
+.FormSearch {
   display: flex;
   width: 600px;
   justify-content: space-between;
 }
 
-.sectionParagraphBasket {
+.divParagraphBasket {
   display: flex;
   width: 55px;
   justify-content: space-between;
   user-select: none;
 }
 
-.sectionParagraphBasketText {
+.ParagraphBasket {
   font-family: "Jost", sans-serif;
   background-color: #ffffff;
 }
 
-.sectionIconButtonText {
+.basketIcon {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  justify-content: space-between;
   background-color: #ffffff;
 }
 
@@ -133,7 +136,8 @@ input.sectionSearchInputText {
   height: 40px;
 }
 
-.sectionIconButtonText {
+.IconButtonBasket {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }

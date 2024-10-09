@@ -1,6 +1,3 @@
-import { ReactComponent as Samokat } from "../../../../helpers/icons/samokat.svg";
-import { ReactComponent as Group } from "../../../../helpers/icons/Group.svg";
-import { ReactComponent as Kirin } from "../../../../helpers/icons/kirin.svg";
 import styles from "./main.module.css";
 
 export const Main = () => {
@@ -26,7 +23,7 @@ export const Main = () => {
                 <button className={styles.mainLineButtonSpecialAndIcon}>
                   Акции
                 </button>
-                <Group className={styles.mainLineIcon} />
+                <img src="/Group.svg" alt="." className={styles.mainLineIcon} />
               </div>
             </div>
           </div>
@@ -43,10 +40,18 @@ export const Main = () => {
                 Перейти в католог
               </button>
               <div className={styles.mainBackroundParagraph}>
-                <Kirin className={styles.mainBackroundParagraphText} />
+                <img
+                  src="/Kirin.svg"
+                  alt="."
+                  className={styles.mainBackroundParagraphText}
+                />
               </div>
               <div className={styles.mainBackroundElements}>
-                <Samokat className={styles.mainBackroundFoto} />
+                <img
+                  src="/Samokat.svg"
+                  alt="."
+                  className={styles.mainBackroundFoto}
+                />
               </div>
             </article>
           </div>

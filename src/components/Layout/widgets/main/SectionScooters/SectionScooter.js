@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./SectionScooter.module.css";
-import { getScooters } from "../../../../../../src/helpers/api/api";
+import { getScooters } from "../../../../../helpers/api/api";
 import { SectionScooterItem } from "../SectionScooterItem/SectionScooterItem";
 
 export const SectionScooter = () => {

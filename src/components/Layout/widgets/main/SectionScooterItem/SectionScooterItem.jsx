@@ -1,8 +1,4 @@
 import styles from "./SectionScooterItem.module.css";
-import { ReactComponent as Accumulator } from "../../../../../helpers/icons/Accumulator.svg";
-import { ReactComponent as Timer } from "../../../../../helpers/icons/Timer.svg";
-import { ReactComponent as Power } from "../../../../../helpers/icons/Power.svg";
-import { ReactComponent as Speedometer } from "../../../../../helpers/icons/Speedometer.svg";
 
 export const SectionScooterItem = ({ el }) => {
   return (
@@ -16,22 +12,30 @@ export const SectionScooterItem = ({ el }) => {
       <div className={styles.information}>
         <div className={styles.informationRight}>
           <p>
-            <Accumulator className={styles.informationIcons} />
+            <img
+              src="/Accumulator.svg"
+              alt="."
+              className={styles.informationIcons}
+            />
             {`${el.battery} mAh`}
           </p>
           <p>
-            <Power className={styles.informationIcons} />
+            <img src="/Power.svg" alt="." className={styles.informationIcons} />
             {`${el.power} л.с`}
           </p>
         </div>
         <div className={styles.informationLeft}>
           <p className={styles.speed}>
             {" "}
-            <Speedometer className={styles.informationIcons} />{" "}
+            <img
+              src="/Speedometer.svg"
+              alt="."
+              className={styles.informationIcons}
+            />
             {`${el.speed} км/ч`}
           </p>
           <p>
-            <Timer className={styles.informationIcons} />
+            <img src="/Timer.svg" alt="." className={styles.informationIcons} />
             {`${el.times / 60} часов`}
           </p>
         </div>

@@ -1,8 +1,4 @@
 import styles from "./SearchHeader.module.css";
-import { ReactComponent as Vector } from "../../../../../helpers/icons/Vector.svg";
-import { ReactComponent as Shopping } from "../../../../../helpers/icons/shopping.svg";
-import { ReactComponent as Heart } from "../../../../../helpers/icons/Heart.svg";
-import { ReactComponent as Balance } from "../../../../../helpers/icons/balance.svg";
 
 export const SearchHeader = ({ cal }) => {
   return (
@@ -16,42 +12,40 @@ export const SearchHeader = ({ cal }) => {
             Каталог
           </button>
         </div>
-        <form className={styles.sectionFormSearch}>
-          <div className={styles.sectionSearchBlock}>
-            <div className={styles.sectionButtonDropMenu}>
-              <select className={styles.sectionButtonDropMenuText}>
+        <form className={styles.FormSearch}>
+          <div className={styles.SearchBlock}>
+            <div className={styles.ButtonDropMenuText}>
+              <select className={styles.ButtonDropMenuText}>
                 <option value="Everywhere">Везде</option>
                 <option>Заглушка</option>
               </select>
             </div>
-            <div className={styles.sectionSearchInput}>
+            <div className={styles.SearchInput}>
               <input
-                className={styles.sectionSearchInputText}
+                className={styles.SearchInputText}
                 type="text"
                 placeholder="Искать самокат KUGO"
               ></input>
             </div>
             <div className={styles.sectionLupa}>
-              <button className={styles.sectionLupaButton}>
-                <Vector />
+              <button className={styles.LupaButton}>
+                <img src="/Vector.svg" alt="." />
               </button>
             </div>
           </div>
         </form>
-        <div className={styles.sectionIcon}>
-          <a className={styles.sectionIconButtonText} href="!">
-            <Balance />
+        <div className={styles.basketIcon}>
+          <a className={styles.IconButtonBasket} href="!">
+            <img src="/Balance.svg" alt="." />
           </a>
-          <a className={styles.sectionIconButtonText} href="!">
-            <Heart />
+          <a className={styles.IconButtonBasket} href="!">
+            <img src="/Heart.svg" alt="." />
           </a>
-          <a className={styles.sectionIconButtonText} href="!">
-            <Shopping />
+          <a className={styles.IconButtonBasket} href="!">
+            <img src="/Shopping.svg" alt="." />
           </a>
-          <div className={styles.sectionParagraphBasket}>
-            <button className={styles.sectionParagraphBasketText}>
-              Корзина
-            </button>
+          <div className={styles.divParagraphBasket}>
+            <button className={styles.ParagraphBasket}>Корзина</button>
           </div>
         </div>
       </section>

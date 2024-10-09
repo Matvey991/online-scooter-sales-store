@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { ReactComponent as Glyph } from "../../../../helpers/icons/Glyph.svg";
-import { ReactComponent as Star } from "../../../../helpers/icons/Star.svg";
 
 export const Footer = () => {
   return (
@@ -22,12 +20,16 @@ export const Footer = () => {
         <div className={styles.footerAdditionalInformationNumber4}>
           <div className={styles.footerYandexElements}>
             <div className={styles.footerBackroundYandex}>
-              <Glyph className={styles.footerYandexLogo} />
+              <img
+                src="/Glyph.svg"
+                alt="."
+                className={styles.footerYandexLogo}
+              />
             </div>
             <div className={styles.footerYandexRatingAndParagraph}>
               <p className={styles.footerYandexParagraph}>Яндекс отзывы</p>
               <div className={styles.footerYandexStarAndHeading}>
-                <Star className={styles.footerStar} />
+                <img src="/Star.svg" alt="." className={styles.footerStar} />
                 <h1>4,9</h1>
               </div>
             </div>
