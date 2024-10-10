@@ -3,9 +3,9 @@ import styles from "./SectionYandex.module.css";
 
 export const SectionYandex = () => {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.footerAdditionalInformationParagraphs}>
-        <div className={styles.footerAdditionalInformationNumber1}>
+    <section>
+      <div className={styles.AdditionalInformationParagraphs}>
+        <div className={styles.AdditionalInformationNumber1}>
           <h2 className={styles.footerHeadingtextNumber1}>ГАРАНТИЯ 1 ГОД</h2>
           <p className={styles.footerParagraphNumber1}>на весь ассортимент</p>
         </div>
@@ -36,6 +36,6 @@ export const SectionYandex = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </section>
   );
 };
