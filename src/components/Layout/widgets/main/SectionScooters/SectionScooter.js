@@ -7,7 +7,11 @@ export const SectionScooter = () => {
   const [state, setState] = useState(null);
 
   useEffect(() => {
-    getScooters().then((res) => setState(res));
+    try {
+      getScooters().then((res) => setState(res));
+    } catch (error) {
+      <h1>ОШИБКА</h1>;
+    }
   }, []);
 
   return (

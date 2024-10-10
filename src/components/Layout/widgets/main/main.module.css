@@ -255,3 +255,9 @@ button {
 .mainAdditionalInformationParagraphs {
   display: flex;
 }
+
+.YandexElements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

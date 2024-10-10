@@ -13,10 +13,6 @@ p {
   user-select: none;
 }
 
-footer {
-  width: 100vw;
-}
-
 .AdditionalInformationParagraphs {
   display: flex;
   margin-top: 39px;
