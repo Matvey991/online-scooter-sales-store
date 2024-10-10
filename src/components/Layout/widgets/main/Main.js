@@ -1,4 +1,5 @@
 import styles from "./main.module.css";
+import { SectionYandex } from "./SectionYandex/SectionYandex";
 
 export const Main = () => {
   return (
@@ -56,6 +57,7 @@ export const Main = () => {
             </article>
           </div>
         </div>
+        <SectionYandex />
       </main>
     </>
   );

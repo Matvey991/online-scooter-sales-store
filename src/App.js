@@ -9,7 +9,6 @@ function App() {
     <div className={styles.App}>
       <Header />
       <Main />
-      <Footer />
       <SectionScooter />
     </div>
   );

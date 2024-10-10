@@ -5,6 +5,14 @@ export const SectionScooterItem = ({ el }) => {
     <div className={styles.card}>
       <div className={styles.backroundImg}>
         <img src={el.image} className={styles.imgScooter} alt="." />
+        <div className={styles.balance}>
+          <img src="/balance 2.svg" alt="." />
+        </div>
+        {el.status === "new" ? (
+          <p className={styles.hit}>Хит</p>
+        ) : (
+          <p className={styles.novik}>Новинка</p>
+        )}
       </div>
       <hr className={styles.hr} />
       <p className={styles.name}>{el.name}</p>
@@ -43,6 +51,14 @@ export const SectionScooterItem = ({ el }) => {
       <div className={styles.priceCard}>
         <p className={styles.falsePrice}>{el.falsePrice}</p>
         <p className={styles.price}>{el.price}</p>
+      </div>
+      <div className={styles.addButtons}>
+        <div className={styles.addToCartButton}>
+          <img src="/shopping-cart-2.svg" alt="." />
+        </div>
+        <div className={styles.theAddToFavoritesButton}>
+          <img src="/Heart — копия.svg" alt="." />
+        </div>
       </div>
       <div className={styles.divBtnBuy}>
         <button className={styles.btnBuy}>Купить в 1 клик</button>
