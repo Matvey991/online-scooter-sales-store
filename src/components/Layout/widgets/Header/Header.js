@@ -8,7 +8,6 @@ export const Header = () => {
 
   function cal() {
     setCatalog((prev) => !prev);
-    console.log(catalog);
   }
 
   return (
