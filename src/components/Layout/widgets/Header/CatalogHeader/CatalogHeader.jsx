@@ -17,16 +17,10 @@ export const CatalogHeader = () => {
           <img src="/scooter-2.svg" alt="." className={styles.CatalogIcons} />
           Электроскутеры
         </button>
-        <i>
-          <button>
-            <img
-              src="/mountain-bike.svg"
-              alt="."
-              className={styles.CatalogIcons}
-            />
-            Электровелосипеды
-          </button>
-        </i>
+        <button className={styles.CatalogIcons}>
+          <img src="/mountain-bike.svg" alt="." />
+          Электровелосипеды
+        </button>
         <button>
           <img
             src="/vacuum-cleaner 1.svg"
