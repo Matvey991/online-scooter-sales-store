@@ -28,7 +28,7 @@ h2 {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 5px;
-  transition: 0.1s linear;
+  transition: 0.1s;
   padding-top: 5px;
   padding-bottom: 5px;
   color: #5d6c7b;
@@ -68,7 +68,7 @@ h2 {
   padding-bottom: 5px;
   border-radius: 5px;
   padding-left: 7px;
-  transition: 0.1s linear;
+  transition: 0.1s;
   color: #5d6c7b;
 }
 
@@ -95,7 +95,7 @@ h2 {
   padding-bottom: 5px;
   border-radius: 5px;
   padding-left: 7px;
-  transition: 0.1s linear;
+  transition: 0.1s;
   color: #5d6c7b;
 }
 

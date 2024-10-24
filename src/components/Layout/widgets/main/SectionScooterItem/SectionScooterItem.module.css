@@ -110,7 +110,7 @@
   cursor: pointer;
   background-color: #6f73ee;
   color: #ffffff;
-  transition: 0.2s linear;
+  transition: 0.2s;
   user-select: none;
   position: absolute;
   bottom: 20px;

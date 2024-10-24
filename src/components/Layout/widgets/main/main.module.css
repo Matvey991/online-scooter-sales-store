@@ -29,7 +29,7 @@ button {
   width: 231px;
   justify-content: space-between;
   align-items: center;
-  transition: 0.1s linear;
+  transition: 0.1s;
   cursor: pointer;
   padding-right: 5px;
 }
@@ -49,7 +49,7 @@ button {
 
 .mainLineButton {
   height: 40px;
-  transition: 0.1s linear;
+  transition: 0.1s;
   width: 74px;
 }
 
@@ -86,7 +86,7 @@ button {
 
 .mainLineButtonSpec {
   height: 40px;
-  transition: 0.1s linear;
+  transition: 0.1s;
   width: 117px;
   user-select: none;
   background-color: rgba(0, 0, 0, 0);
@@ -105,7 +105,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.1s linear;
+  transition: 0.1s;
   width: 90px;
 }
 
@@ -123,7 +123,7 @@ button {
 
 .mainLineButtonSpecialAndIcon {
   height: 40px;
-  transition: 0.1s linear;
+  transition: 0.1s;
   user-select: none;
   background-color: rgba(0, 0, 0, 0);
   padding-left: 10px;
@@ -242,7 +242,7 @@ button {
   left: 105px;
   bottom: 70px;
   border-radius: 5px;
-  transition: 0.1s linear;
+  transition: 0.1s;
 }
 
 .mainBackroundButtonCatalog:hover {

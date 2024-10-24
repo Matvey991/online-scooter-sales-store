@@ -26,7 +26,7 @@ input {
   cursor: pointer;
   background-color: #6f73ee;
   color: #ffffff;
-  transition: 0.2s linear;
+  transition: 0.2s;
   user-select: none;
 }
 
@@ -45,7 +45,7 @@ input {
   border-radius: 5px;
   outline: none;
   cursor: pointer;
-  transition: 0.1s linear;
+  transition: 0.1s;
   user-select: none;
 }
 
@@ -96,7 +96,7 @@ input.SearchInputText {
   border-radius: 0px 5px 5px 0px;
   cursor: pointer;
   background-color: #6f73ee;
-  transition: 0.1s linear;
+  transition: 0.1s;
 }
 
 .LupaButton:hover {

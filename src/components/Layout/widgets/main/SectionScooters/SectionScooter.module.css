@@ -44,7 +44,7 @@ input.inputPassword {
   cursor: pointer;
   background-color: #6f73ee;
   color: #ffffff;
-  transition: 0.2s linear;
+  transition: 0.2s;
   user-select: none;
   margin-top: 20px;
 }
