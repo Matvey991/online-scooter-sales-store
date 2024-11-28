@@ -1,10 +1,21 @@
 import styles from "./Header.module.css";
 import { SearchHeader } from "./SearchHeader/SearchHeader";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CatalogHeader } from "./CatalogHeader/CatalogHeader";
+
+const LS_KEY_CATALOG = "catalog";
 
 export const Header = () => {
   const [catalog, setCatalog] = useState(true);
+
+  useEffect(() => {
+    const FromData = localStorage.getItem(LS_KEY_CATALOG);
+    setCatalog(JSON.parse(FromData));
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem(LS_KEY_CATALOG, catalog);
+  }, [catalog]);
 
   function cal() {
     setCatalog((prev) => !prev);
