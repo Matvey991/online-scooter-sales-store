@@ -1,26 +1,11 @@
 import styles from "./Header.module.css";
 import { SearchHeader } from "./SearchHeader/SearchHeader";
-import { useEffect, useState } from "react";
 import { CatalogHeader } from "./CatalogHeader/CatalogHeader";
-
-const LS_KEY_CATALOG = "catalog";
+import { useCatalog } from "../../../useHooks/useCatalog/useCatalog";
 
 export const Header = () => {
-  const [catalog, setCatalog] = useState(true);
-
-  useEffect(() => {
-    const FromData = localStorage.getItem(LS_KEY_CATALOG);
-    setCatalog(JSON.parse(FromData));
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem(LS_KEY_CATALOG, catalog);
-  }, [catalog]);
-
-  function cal() {
-    setCatalog((prev) => !prev);
-  }
-
+  const {catalog, onCatalog} = useCatalog()
+  
   return (
     <header>
       <div className={styles.topButtons}>
@@ -45,7 +30,7 @@ export const Header = () => {
       </div>
       <hr className={styles.hr} />
       <div className={styles.SearchHeader}>
-        <SearchHeader catalog={catalog} cal={cal} />
+        <SearchHeader catalog={catalog} cal={onCatalog} />
         {catalog ? <CatalogHeader /> : null}
       </div>
     </header>

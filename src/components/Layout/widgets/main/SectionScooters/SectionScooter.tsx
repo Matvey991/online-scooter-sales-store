@@ -15,10 +15,13 @@ export const SectionScooter = () => {
   }, []);
 
   return (
+    <div className={styles.scot}>
     <div className={styles.Scooters}>
       {state
-        ? state.map((el) => <SectionScooterItem key={el.id} el={el} />)
+      // ВРЕМЕННО!!!
+        ? state.map((el: any) => <SectionScooterItem key={el.id} el={el} />)
         : null}
     </div>
+        </div>
   );
 };

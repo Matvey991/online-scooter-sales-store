@@ -2,6 +2,12 @@
   user-select: none;
 }
 
+.SectionScooterItem {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .card {
   width: 255px;
   height: 492px;
@@ -10,7 +16,7 @@
   position: relative;
   border-radius: 10px;
   border: 1px solid #e0e1e2;
-  margin-right: 30px;
+  justify-content: space-between;
 }
 
 .hit {

@@ -1,7 +1,8 @@
 import styles from "./SectionScooterItem.module.css";
 
-export const SectionScooterItem = ({ el }) => {
+export const SectionScooterItem = ({ el }: any) => {
   return (
+    <div className={styles.SectionScooterItem}>
     <div className={styles.card}>
       <div className={styles.backroundImg}>
         <img src={el.image} className={styles.imgScooter} alt="." />
@@ -63,6 +64,7 @@ export const SectionScooterItem = ({ el }) => {
       <div className={styles.divBtnBuy}>
         <button className={styles.btnBuy}>Купить в 1 клик</button>
       </div>
+    </div>
     </div>
   );
 };

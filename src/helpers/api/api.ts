@@ -18,7 +18,7 @@ export const getScooters = async () =>
       return data;
     });
 
-export const getLogit = async (data) =>
+export const getLogit = async (data: string) =>
   await fetch("http://localhost:8000/login", {
     method: "POST",
     headers: {

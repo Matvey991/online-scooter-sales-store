@@ -10,11 +10,11 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     },
     {
       "id": "2",
-      "status": "hit",
+      "status": "novik",
       "name": "Kugoo Kirin M4",
       "price": "29 900 ₽",
       "falsePrice": "39 900 ₽",
@@ -22,7 +22,7 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     },
     {
       "id": "3",
@@ -34,11 +34,11 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     },
     {
       "id": "4",
-      "status": "hit",
+      "status": "novik",
       "name": "Kugoo Kirin M4",
       "price": "29 900 ₽",
       "falsePrice": "39 900 ₽",
@@ -46,7 +46,7 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     },
     {
       "id": "5",
@@ -58,11 +58,11 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     },
     {
       "id": "6",
-      "status": "hit",
+      "status": "novik",
       "name": "Kugoo Kirin M4",
       "price": "29 900 ₽",
       "falsePrice": "39 900 ₽",
@@ -70,7 +70,7 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     },
     {
       "id": "7",
@@ -82,11 +82,11 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     },
     {
       "id": "8",
-      "status": "hit",
+      "status": "novik",
       "name": "Kugoo Kirin M4",
       "price": "29 900 ₽",
       "falsePrice": "39 900 ₽",
@@ -94,7 +94,7 @@
       "battery": 2000,
       "power": 1.2,
       "times": 300,
-      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P2DRqYtxdlG91hqocgXHYW4qYgatR2lPau-7Eyx769~6jHZOfVADt1etzqUxhcgWFIOhuBUFg1a9EhSNEDrx5Sf5-~gjI1Un3uplSs4Tzu~HDf5TEfbHh-3RLaO4GISwtsW6Krbg8ocpcHjy745ymxtdbr9KKB1NByihQx8bsdwz6lyI15OOqhxvKVoYD7ahYsX~9aQQ6~ur2cNR58j6jJG35sVSkWgjJ1PY6l3PYcAwHlUNJVoWuoChYAHfbQMcscDOB3DIeaglVbkgNRQtbCYPmf--8kPcu4-eABSLlIcyjT8RwkYQItZP1BeWyB3kOYjSUM22JHvJD0Qqks0IIA__"
+      "image": "https://s3-alpha-sig.figma.com/img/70ec/0994/64e503f81f650cdf9512562eacbad47e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeZsWUCOuin8XHM7ugLCtG8kGuFNT3Jo1wKjppmB9bOugRXEQ3NYoXWxR9Of4ijFSYQloqBHUqoS8SkYgLeVCj8Q5WlGAbrHA0XleKJ~m-ffwIJtvyhyA4MM~RkJ5MU~e4OERKEpvFB4ITkRlUzQ0yuBrqOuDSJnMOdCIX1j3jBtMxjRLjpuRFTDI2~pjTGZW4jYub64NddeUxuJp04RWGmAwlFmT6WF51wXFRZtATdqBcAkge3IQUB9aMS5DMWwG29p10TvvIiZ3JhhxMVq~Tr38TRCRpv2DOJEUx9HmthwPuG4Hv70Ic~1Mla5P7QHCEU1YmjdTyjnq75acaQZwg__"
     }
   ],
   "users": [

@@ -1,7 +1,8 @@
-import styles from "./main.module.css";
+import styles from "./Main.module.css";
 import { SectionYandex } from "./SectionYandex/SectionYandex";
 
 export const Main = () => {
+  
   return (
     <main className={styles.main}>
       <div className={styles.mainLine}>
@@ -37,7 +38,7 @@ export const Main = () => {
               с бесплатной доставкой по РФ от 1 дня
             </p>
             <button className={styles.mainBackroundButtonCatalog}>
-              Перейти в католог
+               Перейти в католог
             </button>
             <div className={styles.mainBackroundParagraph}>
               <img

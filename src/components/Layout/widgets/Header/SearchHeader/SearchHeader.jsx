@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
 import styles from "./SearchHeader.module.css";
+import { RoutePath } from "../../../../routerConfig/routerConfig";
 
 export const SearchHeader = ({ cal }) => {
   return (
     <section className={styles.section}>
       <div className={styles.sectionHeading}>
-        <h2 className={styles.sectionHeadingText}>KUGOO</h2>
+        <Link to={'/'} className={styles.sectionHeadingText}>KUGOO</Link>
       </div>
       <div className={styles.sectionnButton}>
         <button onClick={() => cal()} className={styles.sectionButtonText}>
@@ -34,18 +36,20 @@ export const SearchHeader = ({ cal }) => {
         </div>
       </form>
       <div className={styles.basketIcon}>
-        <a className={styles.IconButtonBasket} href="!">
+        <button className={styles.IconButtonBasket} href="">
           <img src="/Balance.svg" alt="." />
-        </a>
-        <a className={styles.IconButtonBasket} href="!">
+        </button>
+        <button className={styles.IconButtonBasket} href="">
           <img src="/Heart.svg" alt="." />
-        </a>
-        <a className={styles.IconButtonBasket} href="!">
+        </button>
+        <Link to={RoutePath.basket} className={styles.IconButtonBasket} href="">
           <img src="/Shopping.svg" alt="." />
-        </a>
+        </Link>
+        <span>
         <div className={styles.divParagraphBasket}>
-          <button className={styles.ParagraphBasket}>Корзина</button>
+          <Link to={RoutePath.basket} className={styles.ParagraphBasket}>Корзина</Link>
         </div>
+        </span>
       </div>
     </section>
   );
