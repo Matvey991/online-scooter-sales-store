@@ -1,8 +1,8 @@
 import styles from "./Main.module.css";
+import { SectionScooter } from "./SectionScooters/SectionScooter";
 import { SectionYandex } from "./SectionYandex/SectionYandex";
 
 export const Main = () => {
-  
   return (
     <main className={styles.main}>
       <div className={styles.mainLine}>
@@ -60,6 +60,9 @@ export const Main = () => {
       <div className={styles.YandexElements}>
         <SectionYandex />
       </div>
+        <SectionScooter/>
+      <div className={styles.moreScooters}>
+        </div>
     </main>
   );
 };

@@ -9,7 +9,7 @@ export const SearchHeader = ({ cal }) => {
         <Link to={'/'} className={styles.sectionHeadingText}>KUGOO</Link>
       </div>
       <div className={styles.sectionnButton}>
-        <button onClick={() => cal()} className={styles.sectionButtonText}>
+        <button onClick={cal} className={styles.sectionButtonText}>
           Каталог
         </button>
       </div>
