@@ -1,6 +1,9 @@
-.BasketPage {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100vw;
+.basketHeading {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #282739;
+
 }
