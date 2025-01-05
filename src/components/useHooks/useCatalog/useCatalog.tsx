@@ -4,11 +4,18 @@ import { useEffect, useState } from "react";
 export const LS_KEY_CATALOG = "catalog";
 
 export const useCatalog = () => {
-    const [catalog, setCatalog] = useState(true);
+    const [catalog, setCatalog] = useState<boolean>(true);
     
     useEffect(() => {
-      const FromData = localStorage.getItem(LS_KEY_CATALOG);
-      setCatalog(JSON.parse(FromData));
+      const fromData = localStorage.getItem(LS_KEY_CATALOG);
+      if (fromData !== null) {
+        const parsedData = JSON.parse(fromData);
+        if (typeof parsedData === 'boolean') {
+          setCatalog(parsedData);
+        } else {
+          setCatalog(true);
+        }
+      }
     }, []);
   
     useEffect(() => {

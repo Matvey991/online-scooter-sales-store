@@ -1,0 +1,120 @@
+
+.mainLineButtons {
+    display: flex;
+    width: 100vw;
+    background-color: #f4f7fb;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mainButtonsSpecial {
+    display: flex;
+    width: 231px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.1s;
+    cursor: pointer;
+    padding-right: 5px;
+  }
+  
+  .mainButtonsSpecial:hover {
+    background-color: #e7e7ec;
+    border-radius: 5px;
+  }
+  
+  .mainButtonsSpecial:active {
+    background-color: #d1d1d5;
+  }
+  
+  .mainLineButtonsContainer {
+    display: flex;
+  }
+  
+  .mainLineButton {
+    height: 40px;
+    transition: 0.1s;
+    width: 74px;
+  }
+  
+  .mainLineButton:hover {
+    background-color: #e7e7ec;
+    border-radius: 5px;
+  }
+  
+  .mainLineButton:active {
+    background-color: #d1d1d5;
+  }
+  
+  .mainLineButton {
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+  }
+  
+  .mainLineButtonsContainer {
+    display: flex;
+    width: 706px;
+    justify-content: space-between;
+  }
+  
+  .mainLineButtonSpecial {
+    background-color: #f4f7fb;
+    width: 106px;
+    font-size: 10px;
+    color: #ffffff;
+    user-select: none;
+    border-radius: 300px;
+    background-color: #6f73ee;
+    height: 20px;
+  }
+  
+  .mainLineButtonSpec {
+    height: 40px;
+    transition: 0.1s;
+    width: 117px;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .mainLineButtonSpec:hover {
+    background-color: #e7e7ec;
+    border-radius: 5px;
+  }
+  
+  .mainLineButtonSpec:active {
+    background-color: #d1d1d5;
+  }
+  
+  .mainLineIconAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.1s;
+    width: 90px;
+  }
+  
+  .mainLineIconAndButton:hover {
+    background-color: #e7e7ec;
+    border-radius: 5px;
+    user-select: none;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .mainLineIconAndButton:active {
+    background-color: #d1d1d5;
+  }
+  
+  .mainLineButtonSpecialAndIcon {
+    height: 40px;
+    transition: 0.1s;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 10px;
+  }
+  
+  .mainLineIcon {
+    width: 30px;
+    cursor: pointer;
+    padding-right: 10px;
+  }

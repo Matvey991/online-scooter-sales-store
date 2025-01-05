@@ -1,33 +1,14 @@
+import { memo } from "react";
 import styles from "./Main.module.css";
+import { SectionNavLover } from "./SectionNavLover/SectionNavLover";
 import { SectionScooter } from "./SectionScooters/SectionScooter";
 import { SectionYandex } from "./SectionYandex/SectionYandex";
 
-export const Main = () => {
+export const Main = memo(() => {
   return (
     <main className={styles.main}>
+      <SectionNavLover/>
       <div className={styles.mainLine}>
-        <div className={styles.mainLineButtons}>
-          <div className={styles.mainLineButtonsContainer}>
-            <button className={styles.mainLineButton}>О магазине</button>
-            <div className={styles.mainButtonsSpecial}>
-              <button className={styles.mainLineButtonSpec}>
-                Доставка и оплата
-              </button>
-              <button className={styles.mainLineButtonSpecial}>
-                Доступна рассрочка
-              </button>
-            </div>
-            <button className={styles.mainLineButton}>Тест-драйв</button>
-            <button className={styles.mainLineButton}>Блог</button>
-            <button className={styles.mainLineButton}>Контакты</button>
-            <div className={styles.mainLineIconAndButton}>
-              <button className={styles.mainLineButtonSpecialAndIcon}>
-                Акции
-              </button>
-              <img src="/Group.svg" alt="." className={styles.mainLineIcon} />
-            </div>
-          </div>
-        </div>
         <div className={styles.mainBackroundFoneELements}>
           <article className={styles.mainBackround}>
             <p className={styles.mainElemetnsNewText}>Новинка</p>
@@ -65,4 +46,4 @@ export const Main = () => {
         </div>
     </main>
   );
-};
+});

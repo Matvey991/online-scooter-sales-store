@@ -1,0 +1,44 @@
+.Button {
+    cursor: pointer;
+    color: blue;
+}
+
+.size_m,
+.size_l,
+.size_xl {
+    border-radius: 5px;
+    border: 1.5px;
+    cursor: pointer;
+    background-color: #6f73ee;
+    color: #ffffff;
+    transition: 0.2s;
+    user-select: none;
+  }
+  
+.size_m,
+.size_l,
+.size_xl:hover {
+    background-color: #686ce4;
+  }
+  
+.size_m,
+.size_l,
+.size_xl:active {
+    background-color: #6165d2;
+  }
+
+
+.size_m {
+    width: 75px;
+    height: 40px;
+}
+
+.size_l {
+    width: 115px;
+    height: 45px;
+}
+
+.size_xl {
+    width: 180px;
+    height: 55px;
+}

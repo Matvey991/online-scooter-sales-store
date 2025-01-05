@@ -1,6 +1,6 @@
 import { ReactNode, useEffect, useState } from "react";
 import styles from "./SectionScooter.module.css";
-import { getScooters } from "../../../../../helpers/api/api";
+import { getScooters } from "../../../../../../helpers/api/api";
 import { SectionScooterItem } from "../SectionScooterItem/SectionScooterItem";
 
 interface Scooter {
@@ -10,7 +10,7 @@ interface Scooter {
 }
 
 export const SectionScooter = () => {
-  const [state, setState] = useState<Scooter[] | ''>(null);
+  const [state, setState] = useState<Scooter[] | ''>('');
 
   useEffect(() => {
     const fetchData = async () => {

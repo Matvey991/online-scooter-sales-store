@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import styles from "./SearchHeader.module.css";
 import { RoutePath } from "../../../../routerConfig/routerConfig";
+import { memo } from "react";
 
-export const SearchHeader = ({ cal }) => {
+export const SearchHeader = memo(({ cal }) => {
   return (
     <section className={styles.section}>
       <div className={styles.sectionHeading}>
@@ -53,4 +54,4 @@ export const SearchHeader = ({ cal }) => {
       </div>
     </section>
   );
-};
+});

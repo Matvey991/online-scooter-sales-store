@@ -1,7 +1,8 @@
 import { RouteProps } from "react-router-dom";
-import { MainPage } from "../../pages/MainPage/MainPage";
-import { BasketPage } from "../../pages/BasketPage/ui/BasketPage";
-import { NotFoundPage } from "../../pages/NotFoundPage/NotFoundPage";
+import { BasketPage } from "../../pages/BasketPage";
+import { MainPage } from "../../pages/MainPage";
+import { NotFoundPage } from "../../pages/NotFoundPage";
+
 export enum AppRoutes {
   MAIN = 'main',
   BASKET = 'basket',
@@ -22,7 +23,7 @@ export const routeConfig: Record<AppRoutes, RouteProps> = {
   },
   [AppRoutes.BASKET]: {
       path: RoutePath.basket,
-      element: <BasketPage />,
+      element: <BasketPage   />,
   },
   [AppRoutes.NOT_FOUND]: {
     path: RoutePath.not_found,

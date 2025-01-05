@@ -1,3 +1,5 @@
-export { BasketPage } from "./ui/BasketPage";
+export { BasketPageAsync as BasketPage } from "./ui/BasketPageAsync";
+
+
 
 

@@ -1,9 +1,23 @@
-.basketHeading {
-    position: absolute;
-    top: 25%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #282739;
+.BasketPage {
+    width: 100vw;
+}
 
+.BasketPageContainer {
+    margin: 0px 165px;
+}
+
+.MyBasketHeading {
+    margin-top: 29px;
+    font-weight: 600;
+}
+
+.BasketEmpty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar {
+    margin-top: 20px;
 }

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 import styles from "./CatalogHeader.module.css";
 
-export const CatalogHeader = () => {
+export const CatalogHeader = memo(() => {
   return (
     <div className={styles.catalogSection}>
       <div className={styles.catalogSection1}>
@@ -55,4 +55,4 @@ export const CatalogHeader = () => {
       </div>
     </div>
   );
-};
+});

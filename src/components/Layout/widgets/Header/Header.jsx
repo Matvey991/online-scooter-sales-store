@@ -2,8 +2,9 @@ import styles from "./Header.module.css";
 import { SearchHeader } from "./SearchHeader/SearchHeader";
 import { CatalogHeader } from "./CatalogHeader/CatalogHeader";
 import { useCatalog } from "../../../useHooks/useCatalog/useCatalog";
+import { memo } from "react";
 
-export const Header = () => {
+export const Header = memo(() => {
   const {catalog, onCatalog} = useCatalog()
   
   return (
@@ -35,4 +36,4 @@ export const Header = () => {
       </div>
     </header>
   );
-};
+});
