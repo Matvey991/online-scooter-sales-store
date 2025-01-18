@@ -20,7 +20,7 @@ header {
 .headerRightButton {
   color: #282739;
   font-weight: 500;
-  user-select: none;
+  ;
 }
 
 .topButtons {
@@ -59,7 +59,7 @@ header {
   padding: 4px 4px;
   transition: 0.1s;
   font-size: 14px;
-  user-select: none;
+  ;
 }
 
 .headerLeftButton:hover {

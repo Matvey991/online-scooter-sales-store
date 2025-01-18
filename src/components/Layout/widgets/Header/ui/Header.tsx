@@ -1,8 +1,8 @@
 import styles from "./Header.module.css";
+import { useCatalog } from "../../../../useHooks/useCatalog/useCatalog";
+import { memo } from "react";
 import { SearchHeader } from "./SearchHeader/SearchHeader";
 import { CatalogHeader } from "./CatalogHeader/CatalogHeader";
-import { useCatalog } from "../../../useHooks/useCatalog/useCatalog";
-import { memo } from "react";
 
 export const Header = memo(() => {
   const {catalog, onCatalog} = useCatalog()
@@ -31,7 +31,7 @@ export const Header = memo(() => {
       </div>
       <hr className={styles.hr} />
       <div className={styles.SearchHeader}>
-        <SearchHeader catalog={catalog} cal={onCatalog} />
+        <SearchHeader cal={onCatalog} />
         {catalog ? <CatalogHeader /> : null}
       </div>
     </header>

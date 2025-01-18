@@ -1,0 +1,56 @@
+.FooterSectionUpper {
+    width: 100vw;
+}
+
+.Content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #6F73EE;
+    height: 97px;
+}
+
+.ContentHeadingDiv {
+    display: flex;
+    align-items: center;
+}
+
+.ContentHeading {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Jast', sans-serif;
+}
+
+.Content input {
+    background-color: #6F73EE;
+    margin-right: 15px;
+    width: 410px;
+    height: 53px;
+    background-color: #FFFFFF33;
+    border-radius: 5px;
+}
+
+.Content input::placeholder {
+    color: #FFFFFF !important;
+  }
+
+.Content input:focus {
+    color: #ffff;
+}
+  
+input.input {
+    padding-left: 20px;
+}
+
+.inputAndBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Btn {
+    width: 140px;
+    height: 53px;
+    color: #6F73EE;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}

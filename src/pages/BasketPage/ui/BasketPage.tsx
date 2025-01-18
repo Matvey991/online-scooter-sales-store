@@ -3,6 +3,7 @@ import cls from './BasketPage.module.css'
 import { SectionNavLover } from "../../../components/Layout/widgets/Main/ui/SectionNavLover/SectionNavLover";
 import { Navbar } from "../../../components/Layout/widgets/Navbar/Navbar";
 import BasketEmpty from "./BasketEmpty/BasketEmpty";
+import { Footer } from "../../../components/Layout/widgets/Footer";
 
 const BasketPage = memo(() => {
   return (
@@ -17,6 +18,9 @@ const BasketPage = memo(() => {
           <div className={cls.BasketEmpty}>
           <BasketEmpty />
           </div>
+        </div>
+        <div className={cls.Footer}>
+        <Footer/>
         </div>
       </div>
     </div>

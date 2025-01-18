@@ -1,19 +1,21 @@
+import { RoutePath } from "../../../routerConfig/routerConfig";
 import cls from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     return (
         <div className={cls.links}>
-          <a className={cls.link} href="/">
+          <Link className={cls.link} to={RoutePath.main}>
           Главная
-          </a>
+          </Link>
           /
-          <a className={cls.link} href={"/"}>
+          <Link className={cls.link} to={RoutePath.main}>
           Каталог
-          </a>
+          </Link>
           /
-          <a className={cls.link} href="/basket">
+          <Link className={cls.link} to={RoutePath.basket}>
           Моя корзина
-          </a>
+          </Link>
         </div>
       );
 };

@@ -69,7 +69,7 @@ button {
 .mainElemetnsNewText {
   display: flex;
   font-weight: 400;
-  user-select: none;
+  ;
   width: 83px;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@ button {
   line-height: 50.58px;
   width: 615px;
   height: 102px;
-  user-select: none;
+  ;
   font-size: 35px;
   position: absolute;
   top: 90px;
@@ -106,7 +106,7 @@ button {
   position: absolute;
   bottom: 170px;
   left: 105px;
-  user-select: none;
+  ;
 }
 
 .mainBackroundButtonCatalog {
@@ -116,7 +116,7 @@ button {
   width: 177px;
   align-items: center;
   justify-content: center;
-  user-select: none;
+  ;
   height: 53px;
   position: absolute;
   left: 105px;

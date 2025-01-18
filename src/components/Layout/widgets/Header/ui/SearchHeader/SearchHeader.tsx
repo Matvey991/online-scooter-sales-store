@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
 import styles from "./SearchHeader.module.css";
-import { RoutePath } from "../../../../routerConfig/routerConfig";
+import { RoutePath } from "../../../../../routerConfig/routerConfig";
 import { memo } from "react";
 
-export const SearchHeader = memo(({ cal }) => {
+export interface SearchHeaderProps {
+  cal?: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  catalog?: boolean
+}
+
+export const SearchHeader = memo((props: SearchHeaderProps) => {
+
+  const { cal } = props
+  
   return (
     <section className={styles.section}>
       <div className={styles.sectionHeading}>
@@ -37,13 +45,13 @@ export const SearchHeader = memo(({ cal }) => {
         </div>
       </form>
       <div className={styles.basketIcon}>
-        <button className={styles.IconButtonBasket} href="">
+        <button className={styles.IconButtonBasket}>
           <img src="/Balance.svg" alt="." />
         </button>
-        <button className={styles.IconButtonBasket} href="">
+        <button className={styles.IconButtonBasket}>
           <img src="/Heart.svg" alt="." />
         </button>
-        <Link to={RoutePath.basket} className={styles.IconButtonBasket} href="">
+        <Link to={RoutePath.basket} className={styles.IconButtonBasket}>
           <img src="/Shopping.svg" alt="." />
         </Link>
         <span>

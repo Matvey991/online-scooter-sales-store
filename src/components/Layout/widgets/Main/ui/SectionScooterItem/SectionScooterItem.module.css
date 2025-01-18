@@ -1,5 +1,5 @@
 * {
-  user-select: none;
+  ;
 }
 
 .SectionScooterItem {
@@ -70,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  user-select: none;
+  ;
   background-color: #f0f1f5;
   border-radius: 9px;
 }
@@ -117,7 +117,7 @@
   background-color: #6f73ee;
   color: #ffffff;
   transition: 0.2s;
-  user-select: none;
+  ;
   position: absolute;
   bottom: 20px;
 }

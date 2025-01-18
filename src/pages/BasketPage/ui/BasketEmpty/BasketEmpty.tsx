@@ -13,7 +13,7 @@ return (
       </div>
     <div className={cls.BasketEmptyContent}>
       <h1>ВАША КОРЗИНА ПУСТА</h1>
-      <p>Добавьте в нее товары</p>
+      <p>Добавьте в нее товары из каталога</p>
       <div className={cls.BasletBtn}>
       <Link to={RoutePath.main}>
       <Button size={ButtonSize.SIZE_L} >Перейти в каталог</Button>

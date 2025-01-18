@@ -1,6 +1,6 @@
 .BasketEmpty {
     width: 1110px;
-    height: 423px;
+    height: 323px;
     background-color: #F4F7FB;
     margin-top: 40px;
     border-radius: 10px;  
@@ -11,14 +11,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 45px;
+    padding-top: 35px;
 }
 
 .BasletBtn {
