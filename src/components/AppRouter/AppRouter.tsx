@@ -1,4 +1,4 @@
-import { ReactNode, Suspense } from "react";
+import { memo, ReactNode, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import { routeConfig } from "../routerConfig/routerConfig";
 import { PageLoader } from "../../shared/ui/PageLoader/PageLoader";
@@ -9,7 +9,7 @@ export interface AppRouterProps {
     elemnt?: ReactNode;
 }
 
-export const AppRouter = () =>
+export const AppRouter = memo(() =>
     <Routes>
         {Object.values(routeConfig).map(({ element, path }) => (
             <Route
@@ -27,4 +27,4 @@ export const AppRouter = () =>
             />
         ))}
     </Routes>
-
+)

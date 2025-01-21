@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { classNames } from '../../../../../../shared/lib/classNames/classNames';
 import cls from './FooterSectionUpper.module.css'
 
@@ -5,7 +6,7 @@ interface FooterSectionUpperProps {
 className?: string;
 }
 
-export const FooterSectionUpper = ({ className }: FooterSectionUpperProps) => {
+export const FooterSectionUpper = memo(({ className }: FooterSectionUpperProps) => {
 return (
 <section className={classNames(cls.FooterSectionUpper, {}, [className])}>
     <div className={cls.Content}>
@@ -19,4 +20,4 @@ return (
     </div>
 </section>
 );
-};
+});
