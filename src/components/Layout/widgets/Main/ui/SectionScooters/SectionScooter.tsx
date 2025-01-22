@@ -24,7 +24,7 @@ export const SectionScooter = () => {
     <div className={styles.scot}>
     <div className={styles.Scooters}>
       {state
-        ? state.map((el: ScooterItem) => <SectionScooterItem key={el.id} el={el} />)
+        ? state.map((el) => <SectionScooterItem key={el.id} el={el} />)
         : null}
     </div>
         </div>
