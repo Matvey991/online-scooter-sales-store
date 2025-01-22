@@ -1,6 +1,14 @@
+import { ScooterItem } from "../model/types/scooterItem";
 import styles from "./SectionScooterItem.module.css";
 
-export const SectionScooterItem = ({ el }: any) => {
+interface SectionScooterItemProps {
+  el: ScooterItem
+}
+
+export const SectionScooterItem = (props: SectionScooterItemProps) => {
+
+  const {el} = props
+  
   return (
     <div className={styles.SectionScooterItem}>
     <div className={styles.card}>

@@ -1,16 +1,11 @@
-import { ReactNode, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import styles from "./SectionScooter.module.css";
 import { getScooters } from "../../../../../../helpers/api/api";
-import { SectionScooterItem } from "../SectionScooterItem/SectionScooterItem";
-
-interface Scooter {
-  id: number;
-  key: number
-  el: ReactNode
-}
+import { SectionScooterItem } from "../SectionScooterItem/ui/SectionScooterItem";
+import { ScooterItem } from "../SectionScooterItem/model/types/scooterItem";
 
 export const SectionScooter = () => {
-  const [state, setState] = useState<Scooter[] | ''>('');
+  const [state, setState] = useState<ScooterItem[] | ''>('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,7 +24,7 @@ export const SectionScooter = () => {
     <div className={styles.scot}>
     <div className={styles.Scooters}>
       {state
-        ? state.map((el: Scooter) => <SectionScooterItem key={el.id} el={el} />)
+        ? state.map((el: ScooterItem) => <SectionScooterItem key={el.id} el={el} />)
         : null}
     </div>
         </div>
