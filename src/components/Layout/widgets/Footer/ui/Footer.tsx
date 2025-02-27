@@ -11,12 +11,12 @@ className?: string;
 
 export const Footer = memo(({ className }: FooterProps) => {
 
-return (
-<footer className={classNames(cls.Footer, {}, [className])}>
-    <div>
-        <FooterSectionUpper/>
-        <FooterSectionMiddle/>
-    </div>
-</footer>
-);
+    return (
+        <footer className={classNames(cls.Footer, {}, [className])}>
+            <div>
+                <FooterSectionUpper/>
+                <FooterSectionMiddle/>
+            </div>
+        </footer>
+    );
 });

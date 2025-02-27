@@ -6,25 +6,25 @@ import BasketEmpty from "./BasketEmpty/BasketEmpty";
 import { Footer } from "../../../components/Layout/widgets/Footer";
 
 const BasketPage = memo(() => {
-  return (
-    <div>
-      <div className={cls.BasketPage}>
-        <SectionNavLover />
-        <div className={cls.BasketPageContainer}>
-          <div className={cls.Navbar}>
-            <Navbar />
-          </div>
-            <h1 className={cls.MyBasketHeading}>МОЯ КОРЗИНА</h1>
-          <div className={cls.BasketEmpty}>
-          <BasketEmpty />
-          </div>
+    return (
+        <div>
+            <div className={cls.BasketPage}>
+                <SectionNavLover />
+                <div className={cls.BasketPageContainer}>
+                    <div className={cls.Navbar}>
+                        <Navbar />
+                    </div>
+                    <h1 className={cls.MyBasketHeading}>МОЯ КОРЗИНА</h1>
+                    <div className={cls.BasketEmpty}>
+                        <BasketEmpty />
+                    </div>
+                </div>
+                <div className={cls.Footer}>
+                    <Footer/>
+                </div>
+            </div>
         </div>
-        <div className={cls.Footer}>
-        <Footer/>
-        </div>
-      </div>
-    </div>
-  )
+    )
 });
 
 export default BasketPage
