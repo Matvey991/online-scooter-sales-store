@@ -1,0 +1,146 @@
+.section {
+  display: flex;
+  width: 77vw;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 165px;
+  height: 94px;
+  font-family: "Jost", sans-serif;
+}
+
+input {
+  outline: none;
+}
+.sectionHeadingText {
+  font-weight: 700;
+  font-size: 30px;
+  color: #282739;
+  ;
+}
+
+.sectionButtonText {
+  height: 40px;
+  width: 114px;
+  border-radius: 5px;
+  border: 1.5px;
+  cursor: pointer;
+  background-color: #6f73ee;
+  color: #ffffff;
+  transition: 0.2s;
+  ;
+}
+
+.sectionButtonText:hover {
+  background-color: #686ce4;
+}
+
+.sectionButtonText:active {
+  background-color: #6165d2;
+}
+
+.ButtonDropMenuText {
+  background-color: #f4f7fb;
+  padding: 3px;
+  width: 65px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s;
+  ;
+}
+
+.ButtonDropMenuText:hover {
+  background-color: #e7e7ec;
+}
+
+.ButtonDropMenuText:active {
+  background-color: #d1d1d5;
+}
+
+.SearchInput {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+input.SearchInputText {
+  padding-left: 20px;
+}
+.SearchBlock {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #6f73ee;
+  border-radius: 5px;
+  width: 903px;
+  height: 40px;
+}
+.SearchInputText {
+  width: 495px;
+  height: 37px;
+  ;
+}
+
+.SearchIcon {
+  display: flex;
+  width: 145px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LupaButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  background-color: #6f73ee;
+  transition: 0.1s;
+}
+
+.LupaButton:hover {
+  background-color: #686ce4;
+}
+
+.LupaButton:active {
+  background-color: #6165d2;
+}
+
+.FormSearch {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.divParagraphBasket {
+  display: flex;
+  width: 55px;
+  justify-content: space-between;
+  ;
+}
+
+.ParagraphBasket {
+  font-family: "Jost", sans-serif;
+  background-color: #ffffff;
+}
+
+.basketIcon {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.sectionLupa {
+  width: 40px;
+  height: 40px;
+}
+
+.IconButtonBasket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}

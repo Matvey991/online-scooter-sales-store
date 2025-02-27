@@ -1,0 +1,160 @@
+* {
+  font-family: "Jost", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+}
+
+.mainBackround {
+  display: flex;
+  justify-content: center;
+}
+
+.mainBackroundFone {
+  display: flex;
+  position: relative;
+  left: 0;
+}
+
+.mainBackround {
+  background-image: radial-gradient(
+    farthest-corner at 859px 454px,
+    #a6a9ff 0%,
+    #6f73ee 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 421px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.mainBackroundFoneELements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+  margin-top: 30px;
+}
+
+.mainBackroundFoto {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+}
+
+.mainBackroundParagraph {
+  position: relative;
+}
+
+.mainBackroundParagraphText {
+  position: absolute;
+  top: 15px;
+  left: -80px;
+}
+
+.mainElemetnsNewText {
+  display: flex;
+  font-weight: 400;
+  ;
+  width: 83px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  height: 27px;
+  position: absolute;
+  top: 42px;
+  left: 105px;
+}
+
+.mainHeading {
+  display: flex;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 50.58px;
+  width: 615px;
+  height: 102px;
+  ;
+  font-size: 35px;
+  position: absolute;
+  top: 90px;
+  left: 105px;
+}
+
+.mainBackroundDelivery {
+  display: flex;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  width: 349px;
+  height: 29px;
+  position: absolute;
+  bottom: 170px;
+  left: 105px;
+  ;
+}
+
+.mainBackroundButtonCatalog {
+  display: flex;
+  color: #6f73ee;
+  background-color: #ffffff;
+  width: 177px;
+  align-items: center;
+  justify-content: center;
+  ;
+  height: 53px;
+  position: absolute;
+  left: 105px;
+  bottom: 70px;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+.mainBackroundButtonCatalog:hover {
+  background-color: #f1f1f1;
+}
+
+.mainBackroundButtonCatalog:active {
+  background-color: #e5e5e5;
+}
+
+.mainAdditionalInformationParagraphs {
+  display: flex;
+}
+
+.YandexElements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moreScooters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btnAll {
+  background: transparent;
+  border: 2px solid #6F73EE;
+  border-radius: 5px;
+  width: 142px;
+  height: 53px;
+  color: #6F73EE;
+}

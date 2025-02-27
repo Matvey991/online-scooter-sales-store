@@ -1,0 +1,134 @@
+* {
+  font-family: "Jost", sans-serif;
+}
+
+.section {
+  width: 77vw;
+  margin: 0 165px;
+  height: 94px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AdditionalInformationParagraphs {
+  display: flex;
+  margin-top: 39px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.YandexElements {
+  display: flex;
+  width: 200px;
+  height: 76px;
+  padding: 0px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(93, 108, 123, 10%);
+  border-radius: 5px;
+}
+
+.YandexParagraph {
+  width: 109px;
+  height: 17px;
+  margin-top: 8px;
+}
+
+.YandexLogo {
+  width: 19px;
+  height: 29px;
+}
+
+.BackroundYandex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background-color: #fc3f1d;
+  border-radius: 5px;
+}
+
+.rAdditionalInformationNumber1 {
+  width: 206px;
+  height: 60px;
+}
+
+.AdditionalInformationNumber2 {
+  width: 152px;
+  height: 60px;
+}
+
+.AdditionalInformationNumber3 {
+  width: 154px;
+  height: 60px;
+}
+
+.AdditionalInformationNumber4 {
+  width: 190px;
+  height: 76px;
+}
+
+.HeadingtextNumber1 {
+  width: 206px;
+  height: 36px;
+  font-weight: 600;
+  ;
+  font-size: 25px;
+  line-height: 36.13px;
+}
+
+.HeadingtextNumber2 {
+  width: 152px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 25px;
+  ;
+}
+
+.HeadingtextNumber3 {
+  width: 130px;
+  height: 36px;
+  font-weight: 600;
+  font-size: 25px;
+  ;
+}
+
+.ParagraphNumber1 {
+  width: 143px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 16px;
+  ;
+}
+
+.ParagraphNumber2 {
+  width: 90px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 16px;
+  ;
+}
+
+.ParagraphNumber3 {
+  width: 154px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 16px;
+  ;
+}
+
+.Star {
+  width: 14px;
+  height: 14px;
+}
+
+.YandexStarAndHeading {
+  display: flex;
+  width: 80px;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,201 @@
+.SectionScooterItem {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 255px;
+  height: 492px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #e0e1e2;
+  justify-content: space-between;
+}
+
+.hit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  position: absolute;
+  width: 43px;
+  height: 25px;
+  top: 10px;
+  left: 10px;
+  color: #ffffff;
+  background-color: #ee685f;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.novik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 63px;
+  height: 25px;
+  background-color: #75d14a;
+  border-radius: 5px;
+  font-weight: 400;
+  color: #ffffff;
+  top: 10px;
+  left: 5px;
+  font-size: 13px;
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 10px;
+  right: 17px;
+  border: 1.3px solid #eaebed;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.backroundImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ;
+  background-color: #f0f1f5;
+  border-radius: 9px;
+}
+
+.imgScooter {
+  width: 253px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.name {
+  font-size: 18px;
+  line-height: 26.01px;
+  font-weight: 600;
+  left: 10px;
+  position: absolute;
+  bottom: 210px;
+}
+
+.priceCard {
+  position: absolute;
+  bottom: 67px;
+  left: 10px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 88px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28.9px;
+  font-family: "Jost", sans-serif;
+}
+
+.btnBuy {
+  height: 40px;
+  width: 230px;
+  border-radius: 5px;
+  border: 1.5px;
+  cursor: pointer;
+  background-color: #6f73ee;
+  color: #ffffff;
+  transition: 0.2s;
+  ;
+  position: absolute;
+  bottom: 20px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.informationLeft {
+  position: absolute;
+  bottom: 130px;
+  left: 20px;
+}
+
+.information p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #5d6c7b;
+}
+
+.informationRight {
+  position: absolute;
+  bottom: 130px;
+  right: 20px;
+  margin-left: 20px;
+}
+
+.divBtnBuy {
+  display: flex;
+  justify-content: center;
+}
+
+.btnBuy:hover {
+  background-color: #686ce4;
+}
+
+.btnBuy:active {
+  background-color: #6165d2;
+}
+
+.hr {
+  border: 0.2px solid #e0e1e2;
+}
+
+.falsePrice {
+  display: flex;
+  text-decoration: line-through;
+  color: #5d6c7b;
+}
+
+.informationIcons {
+  margin-right: 10px;
+}
+
+.addToCartButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 70px;
+  right: 75px;
+  border: 1.3px solid #eaebed;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.theAddToFavoritesButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 70px;
+  right: 25px;
+  border: 1.3px solid #eaebed;
+  border-radius: 50%;
+  cursor: pointer;
+}

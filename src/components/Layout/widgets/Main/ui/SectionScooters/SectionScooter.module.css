@@ -1,0 +1,82 @@
+/* .inputLogin {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #6f73ee;
+  border-radius: 5px;
+  width: 370px;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.inputPassword {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #6f73ee;
+  border-radius: 5px;
+  width: 370px;
+  height: 40px;
+}
+
+input.inputLogin {
+  padding-left: 10px;
+}
+
+input.inputPassword {
+  padding-left: 10px;
+}
+
+.divBtnSend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.scot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.state {
+  display: wrap;
+  flex-wrap: wrap;
+}
+
+.btnSend {
+  height: 40px;
+  width: 114px;
+  border-radius: 5px;
+  border: 1.5px;
+  cursor: pointer;
+  background-color: #6f73ee;
+  color: #ffffff;
+  transition: 0.2s;
+  ;
+  margin-top: 20px;
+}
+
+.btnSend:hover {
+  background-color: #686ce4;
+}
+
+.btnSend:active {
+  background-color: #6165d2;
+}
+
+.state {
+  display: wrap;
+  flex-wrap: wrap;
+}
+
+.Scooters {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  margin-top: 20px;
+}
+
+.registrationInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
