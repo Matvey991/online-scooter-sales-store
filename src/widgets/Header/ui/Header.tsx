@@ -1,7 +1,8 @@
+import { useCatalog } from "../../../components/useHooks/useCatalog/useCatalog";
+import styles from "./Header.module.css";
 import { memo } from "react";
-import styles from './Header.module.css'
-import { useCatalog } from "shared/hooks/useCatalog/useCatalog";
-import { CatalogHeader, SearchHeader } from "components/Layout/widgets/Header";
+import { SearchHeader } from "./SearchHeader/SearchHeader";
+import { CatalogHeader } from "./CatalogHeader/CatalogHeader";
 
 export const Header = memo(() => {
     const {catalog, onCatalog} = useCatalog()
@@ -27,6 +28,7 @@ export const Header = memo(() => {
                         <img src="/Numbers.svg" alt="." />
                     </div>
                 </div>
+                <SearchHeader cal={onCatalog} />
             </div>
             <hr className={styles.hr} />
             <div className={styles.SearchHeader}>

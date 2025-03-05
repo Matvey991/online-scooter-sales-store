@@ -1,5 +1,5 @@
+import { Button } from '../../../../shared/ui/Button/Button'
 import styles from './SectionNavLover.module.css'
-import { Button } from "shared/ui/Button/Button";
 
 export function SectionNavLover() {
     return (

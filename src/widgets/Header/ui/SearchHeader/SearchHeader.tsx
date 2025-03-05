@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./SearchHeader.module.css";
-import { RoutePath } from "../../../../../../shared/consts/router";
 import { memo } from "react";
+import { RoutePath } from "../../../../shared/consts/router";
 
 export interface SearchHeaderProps {
   cal?: (event: React.MouseEvent<HTMLButtonElement>) => void;
@@ -20,6 +20,12 @@ export const SearchHeader = memo((props: SearchHeaderProps) => {
                 <button onClick={cal} className={styles.sectionButtonText}>
                     Каталог
                 </button>
+                <h1>FHDAKFAJ</h1>
+                <h1>FHDAKFAJ</h1>
+                <h1>FHDAKFAJ</h1>
+                <h1>FHDAKFAJ</h1>
+                <h1>FHDAKFAJ</h1>
+                <h1>FHDAKFAJ</h1>
             </div>
             <form className={styles.FormSearch}>
                 <div className={styles.SearchBlock}>

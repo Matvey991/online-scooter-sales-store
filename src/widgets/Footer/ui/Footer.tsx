@@ -1,9 +1,9 @@
 
 import { memo } from 'react';
-import { classNames } from '../../../../../shared/lib/classNames/classNames';
 import cls from './Footer.module.css'
 import { FooterSectionUpper } from './FooterSectionUpper/FooterSectionUpper';
 import { FooterSectionMiddle } from './FooterSectionMiddle/FooterSectionMiddle';
+import { classNames } from '../../../shared/lib/classNames/classNames';
 
 interface FooterProps {
 className?: string;

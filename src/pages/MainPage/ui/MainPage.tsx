@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Main } from "../../../components/Layout/widgets/Main/ui/Main";
+import { Main } from "../../../widgets/Main";
 
 const MainPage = memo(() => {
     return (

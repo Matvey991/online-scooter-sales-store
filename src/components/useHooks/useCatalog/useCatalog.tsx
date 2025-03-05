@@ -7,35 +7,35 @@ export const useCatalog = () => {
     const [catalog, setCatalog] = useState<boolean>(true);
     
     useEffect(() => {
-      const fromData = localStorage.getItem(LS_KEY_CATALOG);
-      if (fromData !== null) {
-        const parsedData = JSON.parse(fromData);
-        if (typeof parsedData === 'boolean') {
-          setCatalog(parsedData);
-        } else {
-          setCatalog(true);
+        const fromData = localStorage.getItem(LS_KEY_CATALOG);
+        if (fromData !== null) {
+            const parsedData = JSON.parse(fromData);
+            if (typeof parsedData === 'boolean') {
+                setCatalog(parsedData);
+            } else {
+                setCatalog(true);
+            }
         }
-      }
     }, []);
   
     useEffect(() => {
-      localStorage.setItem(LS_KEY_CATALOG, JSON.stringify(catalog));
+        localStorage.setItem(LS_KEY_CATALOG, JSON.stringify(catalog));
     }, [catalog]);
     
     function onCatalog() {
-       setCatalog((prev) => !prev);
-     }
+        setCatalog((prev) => !prev);
+    }
 
-     const onShowCatalog = () => {
+    const onShowCatalog = () => {
         setCatalog((prev) => !prev)
         console.log('BTN SHOW')
-     }
+    }
 
      
-     return {
+    return {
         onCatalog,
         catalog,
         setCatalog,
         onShowCatalog,
-     }
+    }
 };

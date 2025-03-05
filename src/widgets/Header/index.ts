@@ -1,1 +1,2 @@
-export {Header} from './ui/Header'
+export {CatalogHeader} from './ui/CatalogHeader/CatalogHeader'
+export {SearchHeader} from './ui/SearchHeader/SearchHeader'

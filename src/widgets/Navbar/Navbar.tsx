@@ -1,4 +1,4 @@
-import { RoutePath } from "../../../../shared/consts/router";
+import { RoutePath } from "../../shared/consts/router";
 import cls from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 
